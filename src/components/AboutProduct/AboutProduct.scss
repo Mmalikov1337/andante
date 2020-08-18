@@ -1,0 +1,74 @@
+.about {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('./../../imgs/aboutBg.png');
+    box-sizing: border-box;
+
+    &__fog {}
+
+    &__title {
+        font-family: Gilroy-Bold;
+        font-size: 65px;
+        // max-width: 80%;
+        // margin: 0 auto;
+        margin-left: 10%;
+    }
+
+    &__images {
+        height: 90%;
+        // box-sizing: border-box;
+        background: url('./../../imgs/fog.png') bottom/ contain no-repeat,
+            url('./../../imgs/povar.png') center/contain no-repeat;
+        text-align: center;
+
+        img {
+            height: 140px;
+        }
+
+        .right {
+            position: relative;
+            float: right;
+            // left: 6%;
+        }
+
+        &__item {
+            font-family: Gilroy;
+            font-size: 22px;
+            line-height: 26px;
+
+            .left &:nth-child(2n-1) {
+                position: relative;
+                left: 100px;
+            }
+
+            .left &:nth-child(2n) {
+                position: relative;
+                top: 200px;
+            }
+
+            .right &:nth-child(2n-1) {
+                position: relative;
+                right: 100px;
+            }
+
+            .right &:nth-child(2n) {
+                position: relative;
+                top: 200px;
+            }
+        }
+
+        .left {
+            position: relative;
+            float: left;
+
+            // left: 10%;
+            div {
+                &:first {
+                    left: 10%;
+                }
+            }
+
+
+        }
+    }
+}

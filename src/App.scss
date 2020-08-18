@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: local('Gilroy-ExtraBold'), url('/fonts/gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url('/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url('/fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'), url('/fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'P22UndergroundCYProBook';
+    src: local('P22UndergroundCYProBook'), url('/fonts/P22_Underground/P22UndergroundCYProBook.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'P22UndergroundCYProMedium';
+    src: local('P22UndergroundCYProMedium'), url('/fonts/P22_Underground/P22UndergroundCYProMedium.ttf') format('truetype');
+}
+
+.App {
+    overflow: hidden;
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .main-block {
+        min-height: 850px;
+    }
+
+    .btn {
+        border: none;
+        background: linear-gradient(180deg, #D14F4C 0%, #7F2321 51.26%, #5E1210 77.55%, #490705 100%);
+        box-shadow: 0px 4.08772px 16.3509px rgba(128, 21, 19, 0.6);
+        border-radius: 40.8772px;
+        color: #FFFFFF;
+        font-family: Gilroy;
+
+        span {}
+
+        img {
+            display: inline;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+}

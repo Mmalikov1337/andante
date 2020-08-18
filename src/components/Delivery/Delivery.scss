@@ -1,0 +1,131 @@
+.delivery {
+    height: 100vh;
+
+    &__cassata_slice {
+        position: relative;
+        bottom: 100px;
+    }
+
+    &__nuts {
+        float: right;
+        position: relative;
+        bottom: 250px;
+    }
+
+    &__title {
+        font-family: Gilroy-Bold;
+        font-size: 65px;
+        margin: 0;
+    }
+
+    .taw {
+
+        // justify-content: space-evenly;
+    }
+
+    &__tablets {
+        display: flex;
+        // grid-template-columns: repeat(7, 1fr);
+        align-items: center;
+        justify-content: space-around;
+        // box-sizing: border-box;
+        width: 100%;
+        position: relative;
+        bottom: 150px;
+
+        &__tablet {
+            // margin: 0;
+            // transition: all .3s;
+            display: grid;
+            width: 225px;
+            height: 203px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            grid-template-rows: 55% 45%;
+
+            &:hover {
+                background: #F0C1DB;
+
+                p {
+                    color: #fff;
+                }
+            }
+
+            img {
+                align-self: center;
+                justify-self: center;
+            }
+
+            p {
+                align-self: center;
+                text-align: center;
+                font-style: normal;
+                justify-self: center;
+                width: 200px;
+                font-family: Gilroy-SemiBold;
+                font-size: 15px;
+            }
+        }
+
+
+
+        &__eclipse {
+            // display: flex;
+            // justify-content: center;
+
+            .wrapper {
+                align-self: center;
+                display: flex;
+
+                img {
+                    margin: 2px;
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+    &__orders {
+        position: relative;
+         bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+
+        &__order {
+            &__step {
+                width: 217px;
+                height: 65px;
+                font-family: P22UndergroundCYProMedium;
+                font-size: 50px;
+                position: relative;
+                top: 70px;
+                right: 100px;
+                z-index: -1;
+                text-align: center;
+                color: #ECECEC;
+            }
+
+            &__title {
+                width: 89px;
+                height: 33px;
+                font-family: Gilroy;
+                font-size: 32px;
+                line-height: 103.4%;
+                color: #490705;
+            }
+
+            &__description {
+                width: 217px;
+                height: 35px;
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 103.4%;
+                color: #000000;
+            }
+        }
+    }
+
+}

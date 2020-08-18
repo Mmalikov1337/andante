@@ -1,0 +1,90 @@
+.header {
+    overflow: hidden;
+    height: 100vh;
+    background: radial-gradient(33.45% 49.42% at 74.62% 53.25%, #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
+
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    &__content {
+        &__text {
+            &__title {
+                font-family: Gilroy-ExtraBold;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 54px;
+                line-height: 68px;
+                color: #272727;
+            }
+
+            &__description {
+                width: 535px;
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 26px;
+            }
+
+        }
+
+        &__button-holder {
+            margin-top: 43px;
+
+            button {
+                width: 285px;
+                height: 80px;
+                // font-family: Gilroy-bold;
+                // font-weight: bold;
+                // font-size: 18px;
+                // text-align: center;
+
+                font-family: Gilroy-Bold;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+            }
+
+            &__raspberry {
+
+                position: relative;
+                top: 40px;
+                right: 65px;
+            }
+            &__blueberries{
+                position: absolute;
+                bottom: 50px;
+                left: 10px;
+                // top: 240px;
+                // right: 565px;
+            }
+        }
+    }
+
+    &__image {
+        &__cake {
+            position: relative;
+            bottom: 170px;
+        }
+
+        &__milk {
+            // width: 1123.97px;
+            // height: 744.84px;
+            position: relative;
+            bottom: 945px;
+            right: 125px;
+            // transform: rotate(-5deg)
+        }
+
+        &__strawberry {
+            position: relative;
+            bottom: 1400px;
+            // right: 125px;
+            left: 150px;
+        }
+    }
+}

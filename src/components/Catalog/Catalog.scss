@@ -1,0 +1,127 @@
+.catalog {
+    height: 100vh;
+    background-color: #fff;
+    background-image: url('./../../imgs/underHeader.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &__raspberry {
+        // display: flex;
+        // flex-direction: column-reverse;
+        // align-self: center;
+        top: 180px;
+        position: relative;
+        float: right;
+        // left: 90%;
+    }
+
+    &__text {
+        &__title {
+            font-family: Gilroy-Bold;
+            font-weight: bold;
+            font-size: 64px;
+            color: #272727;
+            padding-top: 185px;
+            margin: 0;
+        }
+
+        &__description {
+            font-family: Gilroy;
+            margin-top: 23px;
+            font-size: 29px;
+        }
+    }
+
+    &__slider {
+        position: relative;
+        bottom: 60px;
+        .button-left {
+            position: relative;
+            z-index: 100;
+            top: 300px;
+            right: 70px;
+            cursor: pointer;
+
+            img {
+                &:nth-child(2) {
+                    position: relative;
+                    right: 30px;
+                }
+            }
+        }
+
+        .button-right {
+            position: relative;
+            // z-index: 100;
+            bottom: 332px;
+            left: 70px;
+            float: right;
+            cursor: pointer;
+            img {
+                &:first-child {
+                    position: relative;
+                    left: 30px;
+                }
+            }
+
+        }
+
+        &__elements {
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            // grid-gap: 41px;
+            // justify-items: auto;
+            justify-content: space-around;
+            
+            &__element {
+                display: grid;
+                grid-template-rows: 45% 5% 25% 25%;
+                background: hsl(0, 0%, 100%);
+                box-shadow: 0px 3.96897px 23.8138px rgba(0, 0, 0, 0.25);
+                border-radius: 4.96121px;
+                align-content: center;
+                justify-content: space-around;
+                min-height: 546px;
+
+                &__image {
+                    justify-self: center;
+                    align-self: center;
+                }
+
+                &__title {
+                    font-family: Gilroy-Bold;
+                    font-size: 31.7517px;
+                    align-self: center;
+                    margin: 0;
+                    text-align: center;
+                }
+
+                &__description {
+                    font-family: Gilroy;
+                    justify-self: center;
+                    align-self: center;
+                    font-size: 16px;
+                    padding: 0 30px;
+                    line-height: 19px;
+                }
+
+                &__button {
+                    justify-self: center;
+                    align-self: center;
+                    width: 85%;
+                    min-width: 100px;
+                    height: 80px;
+                    font-size: 20px;
+                }
+
+                .options {
+                    margin: 0;
+                }
+
+                .key {
+                    font-family: Gilroy-Bold;
+                }
+            }
+        }
+    }
+}
