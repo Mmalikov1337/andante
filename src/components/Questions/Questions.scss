@@ -1,0 +1,54 @@
+.questions {
+    background: url(./../../imgs/Blogtitelbilder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+
+    &__title {
+        font-weight: bold;
+        font-size: 64.485px;
+        margin-top: 0;
+        margin-bottom: 84px;
+        line-height: 78px;
+    }
+
+    &__table {
+        &__item {
+            padding: 5px 0;
+            cursor: pointer;
+            border-bottom: 0.5px solid black;
+
+            &:first-child {
+                border-top: 0.5px solid black;
+
+            }
+
+            display: flex;
+
+            img {
+                display: inline;
+                margin-left: 20px;
+            }
+
+            .title {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 29.3488px;
+                line-height: 35px;
+                display: inline;
+                margin-left: 55px;
+
+                .description {
+                    display: block;
+                    margin-top: 10px;
+                    margin-bottom: 0;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}

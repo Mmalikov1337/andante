@@ -1,5 +1,6 @@
 .delivery {
     height: 100vh;
+   
 
     &__cassata_slice {
         position: relative;
@@ -13,7 +14,7 @@
     }
 
     &__title {
-        font-family: Gilroy-Bold;
+        font-family: Gilroy;
         font-size: 65px;
         margin: 0;
     }
@@ -63,7 +64,7 @@
                 font-style: normal;
                 justify-self: center;
                 width: 200px;
-                font-family: Gilroy-SemiBold;
+                font-family: Gilroy;
                 font-size: 15px;
             }
         }
@@ -88,7 +89,7 @@
 
     &__orders {
         position: relative;
-         bottom: 50px;
+        bottom: 50px;
         display: flex;
         justify-content: space-around;
 

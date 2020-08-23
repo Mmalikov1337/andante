@@ -1,36 +1,9 @@
-@font-face {
-    font-family: 'Gilroy-ExtraBold';
-    src: local('Gilroy-ExtraBold'), url('/fonts/gilroy/Gilroy-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Gilroy-Bold';
-    src: local('Gilroy-Bold'), url('/fonts/gilroy/Gilroy-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: local('Gilroy'), url('/fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Gilroy-SemiBold';
-    src: local('Gilroy-SemiBold'), url('/fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
-}
-
-
-@font-face {
-    font-family: 'P22UndergroundCYProBook';
-    src: local('P22UndergroundCYProBook'), url('/fonts/P22_Underground/P22UndergroundCYProBook.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'P22UndergroundCYProMedium';
-    src: local('P22UndergroundCYProMedium'), url('/fonts/P22_Underground/P22UndergroundCYProMedium.ttf') format('truetype');
-}
+@import './fonts/gilroy/stylesheet.css';
+@import './fonts/P22_Underground/stylesheet.css';
 
 .App {
     overflow: hidden;
+    font-family: Gilroy;
 
     .container {
         max-width: 80%;
@@ -56,5 +29,15 @@
             vertical-align: middle;
             margin-right: 10px;
         }
+    }
+
+    .btn-o {
+        border: none;
+        background: #fff;
+        border-radius: 40.8772px;
+        border: 0.639257px solid #000000;
+        box-sizing: border-box;
+        color: #000;
+        font-family: Gilroy;
     }
 }

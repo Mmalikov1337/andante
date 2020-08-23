@@ -1,0 +1,112 @@
+.slider {
+    position: relative;
+    bottom: 60px;
+
+    .button-left {
+        position: relative;
+        z-index: 100;
+        top: 300px;
+        right: 70px;
+        cursor: pointer;
+
+        img {
+            &:nth-child(2) {
+                position: relative;
+                right: 30px;
+            }
+        }
+    }
+
+    .button-right {
+        position: relative;
+        // z-index: 100;
+        bottom: 332px;
+        left: 70px;
+        float: right;
+        cursor: pointer;
+
+        img {
+            &:first-child {
+                position: relative;
+                left: 30px;
+            }
+        }
+
+    }
+
+    &__elements {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        justify-content: space-around;
+
+        &__element {
+            display: grid;
+            grid-template-rows: 50% 5% 25% 20%;
+            background: hsl(0, 0%, 100%);
+            box-shadow: 0px 3.96897px 23.8138px rgba(0, 0, 0, 0.25);
+            border-radius: 4.96121px;
+            align-content: center;
+            justify-content: space-around;
+            min-height: 546px;
+
+            &__image {
+                justify-self: center;
+                align-self: center;
+            }
+
+            &__title {
+                font-family: Gilroy;
+                font-size: 31.7517px;
+                align-self: center;
+                margin: 0;
+                text-align: center;
+            }
+
+            &__description {
+                font-family: Gilroy;
+                justify-self: center;
+                align-self: flex-start;
+                padding-top: 20px;
+                font-size: 16px;
+                // padding-left: 30px;
+                // padding-right: 30px;
+                line-height: 19px;
+                margin-top: 0;
+                max-width: 293.49px;
+            }
+
+            &__button {
+                justify-self: center;
+                align-self: flex-start;
+                width: 85%;
+                min-width: 100px;
+                height: 80px;
+                font-size: 20px;
+            }
+
+            .options {
+                margin: 0;
+                display: block;
+            }
+
+            .price {
+                display: block;
+                margin-top: 30px;
+                font-size: 40px;
+                line-height: 48px;
+                font-weight: 800;
+            }
+
+            .key {
+                font-weight: 800;
+                font-family: Gilroy;
+            }
+        }
+    }
+
+
+}
+
+.no-button {
+    grid-template-rows: 60% 5% 40% !important;
+}

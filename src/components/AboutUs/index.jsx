@@ -1,5 +1,6 @@
 import React from 'react'
 import chefPNG from './../../imgs/chef_fog.png'
+import chocolatePNG from './../../imgs/chocolate-block.png'
 
 import './AboutUs.scss'
 
@@ -64,7 +65,8 @@ export default function AboutUs() {
                     <img src={chefPNG} alt="chefPNG" />
                 </div>
             </div>
-
+            <img src={chocolatePNG} alt="chocolatePNG"
+                className='chocolate' />
         </div>
     )
 }

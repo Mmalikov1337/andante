@@ -1,0 +1,80 @@
+.backcall {
+    height: 100vh; // 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    // flex-direction: column-reverse;
+    // float: left;
+    .wrap{
+        margin-left: 10%;
+    }
+    &__form {
+        // align-self: center;
+        width: 436px;
+        height: 516px;
+        background: #FFFFFF;
+        box-shadow: 0px 3.6686px 22.0116px rgba(0, 0, 0, 0.25);
+        border-radius: 4.58575px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+
+        &__text {
+            text-align: center;
+            width: 373px;
+            align-self: center;
+            justify-self: center;
+
+            &__title {
+                font-weight: 800;
+                font-size: 40.8293px;
+                line-height: 50px;
+            }
+
+            &__description {
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+
+        &__input {
+            align-self: center;
+            display: grid;
+            row-gap: 15px;
+
+            &__number {
+                width: 377px;
+                height: 91px;
+                justify-self: center;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                // filter: drop-shadow(0px 5px 20px rgba(128, 21, 19, 0.6));
+                border-radius: 50px;
+
+                &::placeholder {
+                    padding-left: 40px;
+                }
+
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #A4A4A4;
+            }
+
+            &__button {
+                width: 377px;
+                height: 91px;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+                justify-self: center;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                filter: drop-shadow(0px 5px 20px rgba(128, 21, 19, 0.6));
+                border-radius: 50px;
+            }
+        }
+    }
+}

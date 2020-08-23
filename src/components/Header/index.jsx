@@ -9,7 +9,7 @@ import './Header.scss'
 
 export default function Header() {
     return (
-        <header className='header'>
+        <header className='header main-block'>
             <div className="container">
                 <NavBar />
                 <div className="grid">
