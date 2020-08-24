@@ -1,0 +1,51 @@
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    // grid-template-columns: 1fr 1fr 1fr;
+
+    &__menu {
+
+        &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__list {
+            list-style-type: none;
+            padding: 0;
+
+            &__element {}
+        }
+
+
+    }
+
+    &__contacts {
+        &__title {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        p {
+            span {
+                display: block;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    &__link {
+        height: 200px;
+        background: url('./../../imgs/ADNA_logo.png') bottom right no-repeat;
+        background-size: 130px 100px;
+        &__button {
+            width: 318px;
+            height: 75px;
+        }
+    }
+}

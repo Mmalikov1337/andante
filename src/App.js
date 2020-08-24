@@ -9,7 +9,8 @@ import {
   Recall,
   Questions,
   Academy,
-  BackCall
+  BackCall,
+  Footer
 } from './components';
 
 import './App.scss';
@@ -27,6 +28,7 @@ function App() {
       <Questions/>
       <Academy/>
       <BackCall/>
+      <Footer/>
     </main>
   );
 }

@@ -3,7 +3,7 @@ import pEggPNG from './../../imgs/pEgg.png'
 import maffinPNG from './../../imgs/maffin.png'
 import keksPNG from './../../imgs/keks.png'
 import orangePNG from './../../imgs/orange.png'
-import playSVG from './../../imgs/play.svg'
+import playPNG from './../../imgs/play.png'
 
 import './Academy.scss'
 
@@ -70,7 +70,7 @@ export default function Academy() {
 
                                     <td className='academy__table__row__col'>
                                         <div className="video-holder">
-                                            <img src={playSVG} alt="playSVG"
+                                            <img src={playPNG} alt="playSVG"
                                                 className='academy__table__row__col__play' />
                                         </div>
                                     </td>

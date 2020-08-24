@@ -1,10 +1,18 @@
 import React from 'react'
+import chefBackCallPNG from './../../imgs/chefBackCall.png'
+import purepngPNG from './../../imgs/purepng.png'
+import milkPNG from './../../imgs/milk.png'
 
 import './BckCall.scss'
 
 export default function BackCall() {
     return (
         <div className='backcall'>
+            
+            <div className="backcall__imag">
+                <img src={purepngPNG} alt="purepngPNG"
+                    className='purepng' />
+            </div>
             {/* <div className="container"> */}
             <div className="wrap">
 
@@ -20,15 +28,14 @@ export default function BackCall() {
                     </div>
                     <div className="backcall__form__input">
                         <input type="text" name="" id=""
-                         placeholder = 'Введите Ваш номер телефона'
-                         className = 'backcall__form__input__number'/>
-                        <button className = 'backcall__form__input__button btn'>
+                            placeholder='Введите Ваш номер телефона'
+                            className='backcall__form__input__number' />
+                        <button className='backcall__form__input__button btn'>
                             Заказать
                         </button>
                     </div>
                 </div>
             </div>
-
             {/* </div> */}
         </div>
     )

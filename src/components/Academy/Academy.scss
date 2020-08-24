@@ -2,6 +2,8 @@
     height: fit-content;
     background: url('./../../imgs/moloko.png') right top no-repeat;
     background-position-y: -150px;
+    
+
     &__text {
         &__title {
             font-family: Gilroy;
@@ -23,7 +25,8 @@
         margin: 0 auto;
         // border: none;
         border-collapse: collapse;
-
+        table-layout: fixed;
+        width: 100%;
         &__head {
             border-bottom: 1px solid #000000 !important;
         }

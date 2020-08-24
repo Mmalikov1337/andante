@@ -38,7 +38,7 @@
         display: grid;
         grid-template-columns: 30% 30% 30%;
         justify-content: space-around;
-
+        column-gap: 3.3%;
         &__element {
             display: grid;
             grid-template-rows: 50% 5% 25% 20%;

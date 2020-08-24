@@ -1,13 +1,49 @@
 .backcall {
-    height: 100vh; // 
+    // height: 100vh; // 
+    height: fit-content;
+    min-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: start;
+    background: url('./../../imgs/fog.png') bottom no-repeat,
+    url('./../../imgs/chefBackCall.png')  55% no-repeat,
+    url('./../../imgs/milk.png')  right no-repeat;
+    // #000;
+
     // flex-direction: column-reverse;
     // float: left;
-    .wrap{
+    .wrap {
         margin-left: 10%;
     }
+
+    .chef {
+        position: relative;
+        z-index: -1;
+    }
+
+    .milk-holder {
+        // float: right;
+        .milkPNG {}
+    }
+
+
+    &__imag {
+        position: absolute;
+        display: inline;
+
+        img {
+            position: relative;
+            display: inline;
+            top: 250px;
+        }
+    }
+
+    .purepng {
+        // float: left;
+        // position: relative;
+        // z-index: 0;
+    }
+
     &__form {
         // align-self: center;
         width: 436px;
