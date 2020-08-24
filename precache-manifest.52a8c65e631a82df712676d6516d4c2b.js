@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f8d68083d45e6ea33ff5585dc05523f",
+    "revision": "85fc782258e1d773cf8f8c9124036b46",
     "url": "/andante/index.html"
   },
   {
-    "revision": "767302c526e007bb0ab1",
-    "url": "/andante/static/css/main.732a3219.chunk.css"
+    "revision": "0ae227ab5f9e5d12e95e",
+    "url": "/andante/static/css/main.1b0a5c6f.chunk.css"
   },
   {
-    "revision": "b09f5527d703c86bda2c",
-    "url": "/andante/static/js/2.b8873d0b.chunk.js"
+    "revision": "9cc006326822e97ddc28",
+    "url": "/andante/static/js/2.972694f0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.b8873d0b.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.972694f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "767302c526e007bb0ab1",
-    "url": "/andante/static/js/main.8fc1c967.chunk.js"
+    "revision": "0ae227ab5f9e5d12e95e",
+    "url": "/andante/static/js/main.d8202004.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -700,6 +700,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/cassata_slice.a262c81b.png"
   },
   {
+    "revision": "942ffe7fa3d3d399158e0b8c28e7ffb7",
+    "url": "/andante/static/media/chefBackCall.942ffe7f.png"
+  },
+  {
     "revision": "cad5f745be7f9a8a70ca302ac042aa8f",
     "url": "/andante/static/media/chef_fog.cad5f745.png"
   },
@@ -764,16 +768,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/pEgg.3bddfd83.png"
   },
   {
-    "revision": "2d3aa4ff5e73aac7e86d9734b85584ea",
-    "url": "/andante/static/media/play.2d3aa4ff.svg"
-  },
-  {
     "revision": "2aa00ae003c47ba16f5b57cb0b66cf72",
     "url": "/andante/static/media/plus.2aa00ae0.svg"
   },
   {
     "revision": "f5d27405ca82938ebe3c245d108084aa",
     "url": "/andante/static/media/povar.f5d27405.png"
+  },
+  {
+    "revision": "8eb7ea972ec6210224d3e10ac38d18f4",
+    "url": "/andante/static/media/purepng.8eb7ea97.png"
   },
   {
     "revision": "3d71dd935b975e8c9a1b85af12b49481",
