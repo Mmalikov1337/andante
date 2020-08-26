@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aea435ab60af3568e40621b2bb4fa9e2",
+    "revision": "bc3c7862f1ccdfc9d5b5fa35f948325c",
     "url": "/andante/index.html"
   },
   {
-    "revision": "c4daed7e71f6ebbbf771",
-    "url": "/andante/static/css/main.b70a7e7c.chunk.css"
+    "revision": "4663a1854aecf73eb03a",
+    "url": "/andante/static/css/main.ebcf1c41.chunk.css"
   },
   {
-    "revision": "b3da236943025e637ff6",
-    "url": "/andante/static/js/2.f1bfdc73.chunk.js"
+    "revision": "e298d45b5ec70593ede6",
+    "url": "/andante/static/js/2.c5ca06c8.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.f1bfdc73.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.c5ca06c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4daed7e71f6ebbbf771",
-    "url": "/andante/static/js/main.8b9180c5.chunk.js"
+    "revision": "4663a1854aecf73eb03a",
+    "url": "/andante/static/js/main.046644f4.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -680,8 +680,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/arrowRight1.1cd83361.svg"
   },
   {
-    "revision": "c604b72c845d887ca1666c1677bacaa8",
-    "url": "/andante/static/media/berry.c604b72c.png"
+    "revision": "41b8ef784649b9284521c1c96a7b113d",
+    "url": "/andante/static/media/berry.41b8ef78.png"
   },
   {
     "revision": "d97607f1a3b4e93106cecb152654e60e",
@@ -706,6 +706,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "942ffe7fa3d3d399158e0b8c28e7ffb7",
     "url": "/andante/static/media/chefBackCall.942ffe7f.png"
+  },
+  {
+    "revision": "fba4206040bb673d1cf2cec3effac42e",
+    "url": "/andante/static/media/chef_aboutus.fba42060.png"
   },
   {
     "revision": "cad5f745be7f9a8a70ca302ac042aa8f",
@@ -780,8 +784,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/povar.f5d27405.png"
   },
   {
-    "revision": "8eb7ea972ec6210224d3e10ac38d18f4",
-    "url": "/andante/static/media/purepng.8eb7ea97.png"
+    "revision": "c33384a185e2c29ca384688a9a9249eb",
+    "url": "/andante/static/media/purepng.c33384a1.png"
   },
   {
     "revision": "3d71dd935b975e8c9a1b85af12b49481",
