@@ -36,9 +36,10 @@
 
     &__elements {
         display: flex;
-        grid-template-columns: 30% 30% 30%;
+        // grid-template-columns: 30% 30% 30%;
         justify-content: space-around;
-        column-gap: 3.3%;
+
+        // column-gap: 3.3%;
         &__element {
             display: grid;
             grid-template-rows: 50% 5% 25% 20%;
@@ -48,6 +49,8 @@
             align-content: center;
             justify-content: space-around;
             min-height: 546px;
+            min-width: 300px;
+            width: 30%;
 
             &__image {
                 justify-self: center;
@@ -72,14 +75,17 @@
                 // padding-right: 30px;
                 line-height: 19px;
                 margin-top: 0;
-                max-width: 293.49px;
+                width: 90%;
+                max-width: 300px;
             }
 
             &__button {
+
                 justify-self: center;
-                align-self: flex-start;
-                width: 85%;
-                min-width: 100px;
+                // align-self: flex-start;
+
+                width: 270px;
+                // min-width: 100px;
                 height: 80px;
                 font-size: 20px;
             }
@@ -103,10 +109,121 @@
             }
         }
     }
-
-
 }
 
 .no-button {
     grid-template-rows: 60% 5% 40% !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .slider {
+        position: relative;
+        bottom: 60px;
+
+        .button-left {
+            position: relative;
+            z-index: 100;
+            top: 300px;
+            right: 0;
+            width: 100px;
+            cursor: pointer;
+
+            img {
+                &:nth-child(2) {
+                    position: relative;
+                    right: 30px;
+                }
+            }
+        }
+
+        .button-right {
+            position: relative;
+            // z-index: 100;
+            bottom: 238px;
+            left: 0;
+            float: right;
+            cursor: pointer;
+
+            img {
+                &:first-child {
+                    position: relative;
+                    left: 30px;
+                }
+            }
+
+        }
+
+        &__elements {
+            display: flex;
+            justify-content: space-around;
+
+            &__element {
+                display: grid;
+                grid-template-rows: 40% 5% 35% 20%;
+                background: #fff;
+                box-shadow: 0px 3.96897px 23.8138px rgba(0, 0, 0, 0.25);
+                border-radius: 4.96121px;
+                align-content: center;
+                justify-content: space-around;
+                min-height: 450px;
+                height: fit-content;
+                min-width: 200px;
+                width: 30%;
+
+                &__image {
+                    justify-self: center;
+                    align-self: center;
+                    width: 180px;
+                }
+
+                &__title {
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    align-self: center;
+                    margin: 0;
+                    width: min-content;
+                    text-align: center;
+                    justify-self: center;
+                }
+
+                &__description {
+                    font-family: Gilroy;
+                    justify-self: center;
+                    align-self: flex-start;
+                    padding-top: 30px;
+                    font-size: 14px;
+                    line-height: 19px;
+                    margin-top: 0;
+                    width: 95%;
+                    max-width: 300px;
+                }
+
+                &__button {
+                    justify-self: center;
+                    width: 90%;
+                    // min-width: 215px;
+                    height: 80px;
+                    font-size: 20px;
+                }
+
+                .options {
+                    margin: 0;
+                    display: block;
+                }
+
+                .price {
+                    display: block;
+                    margin-top: 10px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    font-weight: 800;
+                }
+
+                .key {
+                    font-weight: 800;
+                    font-family: Gilroy;
+                }
+            }
+        }
+    }
 }

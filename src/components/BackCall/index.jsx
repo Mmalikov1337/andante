@@ -9,10 +9,10 @@ export default function BackCall() {
     return (
         <div className='backcall'>
             
-            <div className="backcall__imag">
+            {/* <div className="backcall__imag">
                 <img src={purepngPNG} alt="purepngPNG"
                     className='purepng' />
-            </div>
+            </div> */}
             {/* <div className="container"> */}
             <div className="wrap">
 
@@ -26,14 +26,14 @@ export default function BackCall() {
                             Мы свяжемся с Вами в течении 20 минут
                         </p>
                     </div>
-                    <div className="backcall__form__input">
-                        <input type="text" name="" id=""
+                    <form className="backcall__form__input">
+                        <input type="text" name="number" id="number" formMethod = 'POST'
                             placeholder='Введите Ваш номер телефона'
                             className='backcall__form__input__number' />
                         <button className='backcall__form__input__button btn'>
                             Заказать
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
             {/* </div> */}

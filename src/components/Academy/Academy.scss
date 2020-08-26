@@ -2,7 +2,7 @@
     height: fit-content;
     background: url('./../../imgs/moloko.png') right top no-repeat;
     background-position-y: -150px;
-    
+
 
     &__text {
         &__title {
@@ -27,6 +27,7 @@
         border-collapse: collapse;
         table-layout: fixed;
         width: 100%;
+
         &__head {
             border-bottom: 1px solid #000000 !important;
         }
@@ -92,6 +93,112 @@
 
                     img {
                         justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1150px) {
+    .academy {
+        height: fit-content;
+        background: url('./../../imgs/moloko.png') right top no-repeat;
+        background-position-y: -150px;
+
+
+        &__text {
+            &__title {
+                font-family: Gilroy;
+                font-size: 64.485px;
+                line-height: 80px;
+                margin-bottom: 0;
+            }
+
+            &__description {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                margin-bottom: 80px;
+            }
+        }
+
+        &__table {
+            width: 90%;
+            margin: 0 auto;
+            // border: none;
+            border-collapse: collapse;
+            table-layout: fixed;
+            width: 100%;
+            // display: grid;
+            // // grid-template-columns: 1fr;
+            // grid-template-rows: 1fr;
+
+            &__head {
+                // border-bottom: none !important;
+                display: none;
+            }
+
+            tr {
+                border-collapse: collapse;
+                border-bottom: none;
+
+                &:last-child {
+                    border: none;
+                }
+
+                td {
+                    border-right: none;
+                    display: inline;
+
+                    &:last-child {
+                        border: none;
+                    }
+                }
+            }
+
+            thead {
+                font-weight: 500;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            &__row {
+                &__col {
+                    .image-holder {
+                        margin-top: 15px;
+                        display: grid;
+                        justify-content: center;
+                        font-size: 25px;
+                        line-height: 30px;
+                        text-align: center;
+
+                        img {
+                            justify-self: center;
+                            width: 138px;
+                            height: 107px;
+                            border: 2px solid #5E1210;
+                        }
+                    }
+
+                    .button-holder {
+                        display: grid;
+                        justify-content: center;
+                        row-gap: 15px;
+                        margin: 15px 0;
+                    }
+
+                    &__button {
+                        width: 241px;
+                        height: 58.17px;
+                    }
+
+                    .video-holder {
+                        display: grid;
+
+                        img {
+                            justify-self: center;
+                        }
                     }
                 }
             }

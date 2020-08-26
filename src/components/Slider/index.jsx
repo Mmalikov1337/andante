@@ -6,58 +6,32 @@ import './Slider.scss'
 
 export default function Slider({ SliderInfo, button }) {
 
-    // function useWindowSize() {
-    //     const [_width, setWidth] = useState(0);
-    //     useLayoutEffect(() => {
-    //         function updateSize() {
-    //             setWidth(window.innerWidth);
-    //         }
-    //         window.addEventListener('resize', updateSize);
-    //         updateSize();
-    //         return () => window.removeEventListener('resize', updateSize);
-    //     }, []);
-    //     return _width;
-    // }
     const [activeTabs, setActiveTabs] = useState(window.innerWidth < 1000 ? 1 : 3);
+    const [state, setstate] = useState([0, useWindowSize()]);//
+
     function useWindowSize() {
 
         useLayoutEffect(() => {
-            function updateSize() {
-                if (window.innerWidth < 1000)
+            const updateSize = () => {
+                if (Number(window.innerWidth) < 1000) {
                     setActiveTabs(1);
-                else
+                    console.log('actTabs IF', activeTabs, window.innerWidth);
+                }
+                else {
                     setActiveTabs(3);
+                    console.log('actTabs ELSE', activeTabs, window.innerWidth);
+                }
 
-                console.log(activeTabs, window.innerWidth);
+                setstate([0, activeTabs]);
+                console.log(activeTabs, Number(window.innerWidth));
             }
             window.addEventListener('resize', updateSize);
             updateSize();
             return () => window.removeEventListener('resize', updateSize);
-        }, []);
+        }, [activeTabs]);
         return activeTabs;
     }
-
-    // const size = window.screen.width < 1000 ? 1 : 3;//3
-    // const [activeTabs, setActiveTabs] = useState(window.screen.width < 1000 ? 1 : 3);
-    const [state, setstate] = useState([0, useWindowSize()]);//
     const tabsQuontity = SliderInfo.length - 1;
-    // const [width, height] = useWindowSize();
-    // return <span>Window size: {width} x {height}</span>;
-
-
-    // function asd() {
-    //     if (window.screen.width < 1000) {
-    //         setActiveTabs(1);
-    //         setstate([0, 1]);
-    //     } else {
-    //         setActiveTabs(3);
-    //         setstate([0, 3]);
-    //     }
-
-    //     console.log('asd:', activeTabs, state);
-    // }
-
-    // window.addEventListener('resize', useWindowSize);
 
     function next() {
         if (state[1] > tabsQuontity) {
@@ -91,13 +65,15 @@ export default function Slider({ SliderInfo, button }) {
                 <img src={arrowLeft1SVG} alt="arrowLeft" />
             </div>
             <div className={`slider__elements `}>
-                {state &&
+                {
+                    state &&
                     SliderInfo.slice(state[0], state[1]).map((item, index) => (
                         <div className={`slider__elements__element ${button ? ' ' : 'no-button'}`} key={index}>
                             <img src={item.image} alt="png" className='slider__elements__element__image' />
                             <h4 className='slider__elements__element__title'>{item.title}</h4>
                             <p className='slider__elements__element__description'>{item.description}
-                                {item.options &&
+                                {
+                                    item.options &&
                                     Object.entries(item.options).map((key, index) => (
                                         <span className='options' key={index}>
                                             <span className='key'>
@@ -108,14 +84,16 @@ export default function Slider({ SliderInfo, button }) {
                                     ), item.options)
                                 }
 
-                                {item.price &&
+                                {
+                                    item.price &&
                                     <span className='price'>
                                         {item.price}
                                     </span>
                                 }
 
                             </p>
-                            {button &&
+                            {
+                                button &&
                                 <button className="slider__elements__element__button btn">
                                     В корзину
                                 </button>

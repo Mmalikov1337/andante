@@ -72,3 +72,93 @@
         }
     }
 }
+
+@media screen and (max-width:1150px) {
+    .about {
+        height: fit-content;
+        // background-size: cover;    
+        background-image: url('./../../imgs/aboutBg.png');
+
+        // background: none;
+        box-sizing: border-box;
+
+        &__fog {}
+
+        &__title {
+            display: block;
+            font-family: Gilroy;
+            font-size: 40px;
+            // max-width: 80%;
+            margin: 0;
+            text-align: center;
+            position: relative;
+            left: 50px;
+            // margin-left: 0;
+        }
+
+        &__images {
+            height: 90%;
+            // box-sizing: border-box;
+            background: none;
+            background: url('./../../imgs/fog.png') bottom/ contain no-repeat;
+            text-align: center;
+
+            img {
+                height: 140px;
+            }
+
+            .right {
+                position: relative;
+                float: none;
+                // left: 6%;
+            }
+
+            &__item {
+                font-family: Gilroy;
+                font-size: 22px;
+                line-height: 26px;
+                position: relative;
+                z-index: 1;
+
+                img {
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .left &:nth-child(2n-1) {
+                    position: static;
+
+                    left: 100px;
+                }
+
+                .left &:nth-child(2n) {
+                    position: static;
+
+                    top: 200px;
+                }
+
+                .right &:nth-child(2n-1) {
+                    position: static;
+
+                    right: 100px;
+                }
+
+                .right &:nth-child(2n) {
+                    position: static;
+                    top: 200px;
+                }
+            }
+
+            .left {
+                position: relative;
+                float: none;
+
+                div {
+                    &:first {
+                        left: 10%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -71,7 +71,8 @@ export default function Questions() {
                                 key={index}>
                                 {
                                     index === activeIndex ?
-                                        <img src={minusSVG} alt="minusSVG" /> :
+                                        <img src={minusSVG} alt="minusSVG" 
+                                        className = 'minus'/> :
                                         <img src={plusSVG} alt="plusSVG" />
                                 }
                                 <p className='title'>{item.title}

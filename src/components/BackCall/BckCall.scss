@@ -1,5 +1,6 @@
 .backcall {
     // height: 100vh; // 
+
     height: fit-content;
     min-height: 1000px;
     display: flex;
@@ -117,16 +118,40 @@
 }
 
 @media screen and(max-width:1150px) {
+    // .imgholder {
+    //     // position: absolute;
+    //     position: absolute;
+    //     display: inline;
+    //     left: 75%;
+    //     width: 600px;
+    //     height: 600px;
+    //     z-index: 50;
+
+    //     img {
+    //         z-index: 4;
+    //         position: relative;
+    //         display: inline;
+    //         top: -100px;
+    //         width: 600px;
+    //         height: 600px;
+    //         // bottom: 100px;
+    //     }
+
+    // }
+        
     .backcall {
+        // overflow: hidden;
         height: fit-content;
         min-height: 1000px;
         display: flex;
         align-items: center;
-        justify-content: start;
-        background: url('./../../imgs/fog.png') bottom no-repeat,
+        justify-content: center;
+        background:url('./../../imgs/purepng.png') top right -150px no-repeat,
+            url('./../../imgs/fog.png') bottom no-repeat,
             url('./../../imgs/chefBackCall.png') 55% no-repeat,
             url('./../../imgs/milk.png') right no-repeat;
 
+        background-size: 400px,auto,auto,auto,;
         .wrap {
             margin-left: 10%;
         }
@@ -137,21 +162,21 @@
         }
 
         &__imag {
-            // position: absolute;
-            position: static;
             display: inline;
-
+            // z-index: 400;
             img {
+                z-index: 4;
                 position: relative;
                 display: inline;
-                top: 250px;
             }
         }
 
         &__form {
             // align-self: center;
-            width: 436px;
-            height: 516px;
+            position: relative;
+            z-index: 0;
+            width: 90%;
+            height: 556px;
             background: #FFFFFF;
             box-shadow: 0px 3.6686px 22.0116px rgba(0, 0, 0, 0.25);
             border-radius: 4.58575px;
@@ -160,7 +185,8 @@
 
             &__text {
                 text-align: center;
-                width: 373px;
+                width: 90%;
+
                 align-self: center;
                 justify-self: center;
 
@@ -183,7 +209,8 @@
                 row-gap: 15px;
 
                 &__number {
-                    width: 377px;
+                    width: 90%;
+
                     height: 91px;
                     justify-self: center;
                     border: 1px solid #000000;
@@ -192,18 +219,19 @@
                     border-radius: 50px;
 
                     &::placeholder {
-                        padding-left: 40px;
+                        padding-left: 15px;
                     }
 
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 18px;
+                    font-size: 16px;
                     line-height: 22px;
                     color: #A4A4A4;
                 }
 
                 &__button {
-                    width: 377px;
+                    width: 90%;
+
                     height: 91px;
                     font-weight: bold;
                     font-size: 20px;

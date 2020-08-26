@@ -29,7 +29,11 @@
                 display: inline;
                 margin-left: 20px;
             }
-
+            .minus{
+                display: flex;
+                align-self: flex-start;
+                margin-top: 45px;
+            }
             .title {
                 font-family: Gilroy;
                 font-style: normal;

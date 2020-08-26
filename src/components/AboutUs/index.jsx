@@ -61,9 +61,9 @@ export default function AboutUs() {
                     </div>
 
                 </div>
-                <div className="about_us__image">
+                {/* <div className="about_us__image">
                     <img src={chefPNG} alt="chefPNG" />
-                </div>
+                </div> */}
             </div>
             <img src={chocolatePNG} alt="chocolatePNG"
                 className='chocolate' />
