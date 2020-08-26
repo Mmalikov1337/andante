@@ -1,8 +1,18 @@
 .header {
     overflow: hidden;
     height: 100vh;
-    background: radial-gradient(33.45% 49.42% at 74.62% 53.25%, #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
+    // background: url('./../../imgs/blueberries.png')0 700px no-repeat,
+    //     radial-gradient(33.45% 49.42% at 74.62% 53.25%, #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
+    // './../../imgs/raspberry.png'
+    // './../../imgs/cake.png'
+    // './../../imgs/milk.png'
+    background: url('./../../imgs/strawberry.png') (top 65%) (right 450px) no-repeat,
+        url('./../../imgs/milk.png') center right no-repeat,
+        url('./../../imgs/cake.png') center right no-repeat,
+        url('./../../imgs/blueberries.png') 0 500px no-repeat,
+        radial-gradient(33.45% 49.42% at 74.62% 53.25%, #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
 
+    // background-position-y: 100px 0 0 0;
     .grid {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -27,7 +37,6 @@
                 font-size: 20px;
                 line-height: 26px;
             }
-
         }
 
         &__button-holder {
@@ -36,11 +45,6 @@
             button {
                 width: 285px;
                 height: 80px;
-                // font-family: Gilroy-bold;
-                // font-weight: bold;
-                // font-size: 18px;
-                // text-align: center;
-
                 font-family: Gilroy;
                 font-style: normal;
                 font-weight: bold;
@@ -50,17 +54,22 @@
             }
 
             &__raspberry {
-
                 position: relative;
                 top: 40px;
                 right: 65px;
             }
-            &__blueberries{
+
+            .img-container {
+                float: left;
                 position: absolute;
-                bottom: 50px;
-                left: 10px;
-                // top: 240px;
-                // right: 565px;
+            }
+
+            &__blueberries {
+                position: relative;
+                // bottom: 3px;
+                top: auto;
+                right: 150px;
+                float: left;
             }
         }
     }
@@ -72,19 +81,131 @@
         }
 
         &__milk {
-            // width: 1123.97px;
-            // height: 744.84px;
             position: relative;
             bottom: 945px;
             right: 125px;
-            // transform: rotate(-5deg)
         }
 
         &__strawberry {
             position: relative;
             bottom: 1400px;
-            // right: 125px;
             left: 150px;
+        }
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .header {
+        overflow: hidden;
+        height: 100vh;
+        // max-height: 630px;
+
+        background: url('./../../imgs/strawberry.png') (top 80%) (right 30%) no-repeat,
+            url('./../../imgs/milk.png') (top 80%) (right -100px) no-repeat,
+            url('./../../imgs/cake.png') (top 75%) (right -100px) no-repeat,
+            url('./../../imgs/blueberries.png') -30px 370px no-repeat,
+            radial-gradient(33.45% 49.42% at 74.62% 53.25%,
+                #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
+
+        // background: url('./../../imgs/strawberry.png') (center) (right 55%) no-repeat,
+        //     url('./../../imgs/milk.png') center (right) no-repeat,
+        //     url('./../../imgs/cake.png') center right no-repeat,
+        //     url('./../../imgs/blueberries.png') 0 500px no-repeat,
+        //     radial-gradient(33.45% 49.42% at 74.62% 53.25%,
+        //         #FFFFFF 0%, #F0C2DB 100%, #F0C2DB 100%);
+
+        background-size: 30%, 100%, 100%, 140px, auto; //50%
+
+        .grid {
+            display: block;
+            // grid-template-columns: 50% 50%;
+        }
+
+        &__content {
+            &__text {
+                &__title {
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: normal;
+                    color: #272727;
+                }
+
+                &__description {
+                    // width: 535px;
+                    width: auto; //
+                    font-size: 14px; //
+                    line-height: normal;
+                }
+            }
+
+            &__button-holder {
+                margin-top: 0;
+                width: fit-content;
+                height: fit-content;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                vertical-align: middle;
+
+                // background: url('./../../imgs/raspberry.png');
+                button {
+                    width: 210px;
+                    // position: relative;
+                    // z-index: -1;
+                    height: 70px;
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+
+                &__raspberry {
+                    position: relative;
+                    // bottom: 40px;
+                    // left: 65px;
+                    // align-self: center;
+                    width: 85px;
+                    margin-bottom: 70px;
+                    margin-left: 20px;
+                }
+
+                .img-container {
+                    position: absolute;
+                }
+
+                &__blueberries {
+                    position: relative;
+                    bottom: 50px;
+                    left: 10px;
+                }
+            }
+        }
+
+        &__image {
+            &__cake {
+                position: relative;
+                bottom: 200px;
+                width: 800px;
+                height: auto;
+                // height: 740px;
+            }
+
+            &__milk {
+                position: relative;
+                bottom: 945px;
+                right: 125px;
+            }
+
+            &__strawberry {
+                position: relative;
+                bottom: 1400px;
+                left: 150px;
+
+            }
         }
     }
 }

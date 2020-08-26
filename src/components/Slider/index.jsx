@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useLayoutEffect } from 'react'
 import arrowLeft1SVG from './../../imgs/arrowLeft1.svg'
 import arrowRight1svg from './../../imgs/arrowRight1.svg'
 
@@ -6,13 +6,62 @@ import './Slider.scss'
 
 export default function Slider({ SliderInfo, button }) {
 
-    const activeTabsNumber = 3;
+    // function useWindowSize() {
+    //     const [_width, setWidth] = useState(0);
+    //     useLayoutEffect(() => {
+    //         function updateSize() {
+    //             setWidth(window.innerWidth);
+    //         }
+    //         window.addEventListener('resize', updateSize);
+    //         updateSize();
+    //         return () => window.removeEventListener('resize', updateSize);
+    //     }, []);
+    //     return _width;
+    // }
+    const [activeTabs, setActiveTabs] = useState(window.innerWidth < 1000 ? 1 : 3);
+    function useWindowSize() {
+
+        useLayoutEffect(() => {
+            function updateSize() {
+                if (window.innerWidth < 1000)
+                    setActiveTabs(1);
+                else
+                    setActiveTabs(3);
+
+                console.log(activeTabs, window.innerWidth);
+            }
+            window.addEventListener('resize', updateSize);
+            updateSize();
+            return () => window.removeEventListener('resize', updateSize);
+        }, []);
+        return activeTabs;
+    }
+
+    // const size = window.screen.width < 1000 ? 1 : 3;//3
+    // const [activeTabs, setActiveTabs] = useState(window.screen.width < 1000 ? 1 : 3);
+    const [state, setstate] = useState([0, useWindowSize()]);//
     const tabsQuontity = SliderInfo.length - 1;
-    const [state, setstate] = useState([0, 3]);//
+    // const [width, height] = useWindowSize();
+    // return <span>Window size: {width} x {height}</span>;
+
+
+    // function asd() {
+    //     if (window.screen.width < 1000) {
+    //         setActiveTabs(1);
+    //         setstate([0, 1]);
+    //     } else {
+    //         setActiveTabs(3);
+    //         setstate([0, 3]);
+    //     }
+
+    //     console.log('asd:', activeTabs, state);
+    // }
+
+    // window.addEventListener('resize', useWindowSize);
 
     function next() {
         if (state[1] > tabsQuontity) {
-            setstate([0, 3]);
+            setstate([0, activeTabs]);
             console.log('next if', state);
 
         } else {
@@ -26,13 +75,14 @@ export default function Slider({ SliderInfo, button }) {
 
     function prew() {
         if (state[0] <= 0) {
-            setstate([tabsQuontity + 1 - activeTabsNumber, tabsQuontity + 1]);
+            setstate([tabsQuontity + 1 - activeTabs, tabsQuontity + 1]);
             console.log('prew if', state);
         } else {
             setstate([state[0] - 1, state[1] - 1]);
             console.log('prew else', state);
         }
     }
+    // useWindowSize();
 
     return (
         <div className="slider">
@@ -41,9 +91,9 @@ export default function Slider({ SliderInfo, button }) {
                 <img src={arrowLeft1SVG} alt="arrowLeft" />
             </div>
             <div className={`slider__elements `}>
-                {
+                {state &&
                     SliderInfo.slice(state[0], state[1]).map((item, index) => (
-                        <div className={`slider__elements__element ${button ? ' ':'no-button'}`} key={index}>
+                        <div className={`slider__elements__element ${button ? ' ' : 'no-button'}`} key={index}>
                             <img src={item.image} alt="png" className='slider__elements__element__image' />
                             <h4 className='slider__elements__element__title'>{item.title}</h4>
                             <p className='slider__elements__element__description'>{item.description}
@@ -65,7 +115,7 @@ export default function Slider({ SliderInfo, button }) {
                                 }
 
                             </p>
-                            { button && 
+                            {button &&
                                 <button className="slider__elements__element__button btn">
                                     В корзину
                                 </button>

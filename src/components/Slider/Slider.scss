@@ -35,7 +35,7 @@
     }
 
     &__elements {
-        display: grid;
+        display: flex;
         grid-template-columns: 30% 30% 30%;
         justify-content: space-around;
         column-gap: 3.3%;
