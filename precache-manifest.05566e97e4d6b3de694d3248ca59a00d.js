@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85fc782258e1d773cf8f8c9124036b46",
+    "revision": "aea435ab60af3568e40621b2bb4fa9e2",
     "url": "/andante/index.html"
   },
   {
-    "revision": "0ae227ab5f9e5d12e95e",
-    "url": "/andante/static/css/main.1b0a5c6f.chunk.css"
+    "revision": "c4daed7e71f6ebbbf771",
+    "url": "/andante/static/css/main.b70a7e7c.chunk.css"
   },
   {
-    "revision": "9cc006326822e97ddc28",
-    "url": "/andante/static/js/2.972694f0.chunk.js"
+    "revision": "b3da236943025e637ff6",
+    "url": "/andante/static/js/2.f1bfdc73.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.972694f0.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.f1bfdc73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ae227ab5f9e5d12e95e",
-    "url": "/andante/static/js/main.d8202004.chunk.js"
+    "revision": "c4daed7e71f6ebbbf771",
+    "url": "/andante/static/js/main.8b9180c5.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -686,6 +686,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d97607f1a3b4e93106cecb152654e60e",
     "url": "/andante/static/media/blueberries.d97607f1.png"
+  },
+  {
+    "revision": "18c099a7d4154f29f883d21d8fbfde49",
+    "url": "/andante/static/media/burger-btn.18c099a7.svg"
   },
   {
     "revision": "19faf162c4a7e8ccf4cfa7fc3a4cfaac",

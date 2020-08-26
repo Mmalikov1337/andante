@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/andante/static/css/main.1b0a5c6f.chunk.css",
-    "main.js": "/andante/static/js/main.d8202004.chunk.js",
-    "main.js.map": "/andante/static/js/main.d8202004.chunk.js.map",
+    "main.css": "/andante/static/css/main.b70a7e7c.chunk.css",
+    "main.js": "/andante/static/js/main.8b9180c5.chunk.js",
+    "main.js.map": "/andante/static/js/main.8b9180c5.chunk.js.map",
     "runtime-main.js": "/andante/static/js/runtime-main.94e5cd9d.js",
     "runtime-main.js.map": "/andante/static/js/runtime-main.94e5cd9d.js.map",
-    "static/js/2.972694f0.chunk.js": "/andante/static/js/2.972694f0.chunk.js",
-    "static/js/2.972694f0.chunk.js.map": "/andante/static/js/2.972694f0.chunk.js.map",
+    "static/js/2.f1bfdc73.chunk.js": "/andante/static/js/2.f1bfdc73.chunk.js",
+    "static/js/2.f1bfdc73.chunk.js.map": "/andante/static/js/2.f1bfdc73.chunk.js.map",
     "index.html": "/andante/index.html",
-    "precache-manifest.52a8c65e631a82df712676d6516d4c2b.js": "/andante/precache-manifest.52a8c65e631a82df712676d6516d4c2b.js",
+    "precache-manifest.05566e97e4d6b3de694d3248ca59a00d.js": "/andante/precache-manifest.05566e97e4d6b3de694d3248ca59a00d.js",
     "service-worker.js": "/andante/service-worker.js",
-    "static/css/main.1b0a5c6f.chunk.css.map": "/andante/static/css/main.1b0a5c6f.chunk.css.map",
-    "static/js/2.972694f0.chunk.js.LICENSE.txt": "/andante/static/js/2.972694f0.chunk.js.LICENSE.txt",
+    "static/css/main.b70a7e7c.chunk.css.map": "/andante/static/css/main.b70a7e7c.chunk.css.map",
+    "static/js/2.f1bfdc73.chunk.js.LICENSE.txt": "/andante/static/js/2.f1bfdc73.chunk.js.LICENSE.txt",
     "static/media/Footer.scss": "/andante/static/media/ADNA_logo.58e1863f.png",
     "static/media/Questions.scss": "/andante/static/media/Blogtitelbilder.f9811b20.png",
     "static/media/Bugday.png": "/andante/static/media/Bugday.a2331a4d.png",
@@ -22,8 +22,8 @@
     "static/media/arrowLeft1.svg": "/andante/static/media/arrowLeft1.602bdc71.svg",
     "static/media/arrowRight1.svg": "/andante/static/media/arrowRight1.1cd83361.svg",
     "static/media/berry.png": "/andante/static/media/berry.c604b72c.png",
-    "static/media/blueberries.png": "/andante/static/media/blueberries.d97607f1.png",
-    "static/media/cake.png": "/andante/static/media/cake.19faf162.png",
+    "static/media/Header.scss": "/andante/static/media/strawberry.96902cba.png",
+    "static/media/burger-btn.svg": "/andante/static/media/burger-btn.18c099a7.svg",
     "static/media/car.png": "/andante/static/media/car.09f9af54.png",
     "static/media/cassata_slice.png": "/andante/static/media/cassata_slice.a262c81b.png",
     "static/media/BckCall.scss": "/andante/static/media/milk.e94952ae.png",
@@ -48,15 +48,14 @@
     "static/media/recallArow.svg": "/andante/static/media/recallArow.f24c0c3f.svg",
     "static/media/Recall.scss": "/andante/static/media/recallBlockBG.4955f4a3.png",
     "static/media/springform_flachboden_zenker_creativestudio.png": "/andante/static/media/springform_flachboden_zenker_creativestudio.b77ae0bd.png",
-    "static/media/strawberry.png": "/andante/static/media/strawberry.96902cba.png",
     "static/media/tray.png": "/andante/static/media/tray.83d030f7.png",
     "static/media/Catalog.scss": "/andante/static/media/underHeader.5f1b3801.png",
     "static/media/watch.png": "/andante/static/media/watch.2bc947e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.94e5cd9d.js",
-    "static/js/2.972694f0.chunk.js",
-    "static/css/main.1b0a5c6f.chunk.css",
-    "static/js/main.d8202004.chunk.js"
+    "static/js/2.f1bfdc73.chunk.js",
+    "static/css/main.b70a7e7c.chunk.css",
+    "static/js/main.8b9180c5.chunk.js"
   ]
 }
