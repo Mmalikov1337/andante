@@ -239,3 +239,10 @@
 
 
 }
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .about_us__content__text__grid__elem .wrap p {
+        padding: 10px
+    }
+}

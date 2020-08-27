@@ -6,7 +6,8 @@
     position: relative;
     z-index: 3;
     background-color: #fff;
-    background: url('./../../imgs/berry.png') (left -200px) bottom no-repeat;
+    // background: url('./../../imgs/berry.png') (left -200px) bottom no-repeat;
+    background: url('./../../imgs/berry.png') left -200px bottom no-repeat, url('./../../imgs/chocolate-block.png') right -100px top 110px no-repeat;
     padding-bottom: 200px;
 
     &__berry {
@@ -114,5 +115,16 @@
             }
         }
 
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .assortment__text__title {
+        font-size: 35px;
+    }
+    .assortment__text__description {
+        font-size: 20px;
     }
 }

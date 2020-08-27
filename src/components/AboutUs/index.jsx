@@ -6,7 +6,7 @@ import './AboutUs.scss'
 
 export default function AboutUs() {
     return (
-        <div className='about_us main-block'>
+        <div className='about_us main-block' id="aboutUs">
             <div className="container">
 
                 <div className="about_us__content">
@@ -65,8 +65,8 @@ export default function AboutUs() {
                     <img src={chefPNG} alt="chefPNG" />
                 </div> */}
             </div>
-            <img src={chocolatePNG} alt="chocolatePNG"
-                className='chocolate' />
+            {/* <img src={chocolatePNG} alt="chocolatePNG"
+                className='chocolate' /> */}
         </div>
     )
 }

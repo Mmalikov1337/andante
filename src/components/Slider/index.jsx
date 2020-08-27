@@ -13,11 +13,13 @@ export default function Slider({ SliderInfo, button }) {
 
         useLayoutEffect(() => {
             const updateSize = () => {
-                if (Number(window.innerWidth) < 1000) {
+                if (Number(window.innerWidth) <= 1080) {
                     setActiveTabs(1);
                     console.log('actTabs IF', activeTabs, window.innerWidth);
-                }
-                else {
+                } else if (Number(window.innerWidth) <= 1400) {
+                    setActiveTabs(2);
+                    console.log('actTabs IF', activeTabs, window.innerWidth);
+                } else {
                     setActiveTabs(3);
                     console.log('actTabs ELSE', activeTabs, window.innerWidth);
                 }
