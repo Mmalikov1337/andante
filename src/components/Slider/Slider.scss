@@ -1,12 +1,17 @@
 .slider {
-    position: relative;
-    bottom: 60px;
+    // position: relative;
+    // bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     .button-left {
-        position: relative;
+        // position: relative;
+        display: flex;
         z-index: 100;
-        top: 300px;
-        right: 70px;
+        // top: 300px;
+        // right: 70px;
         cursor: pointer;
 
         img {
@@ -18,11 +23,12 @@
     }
 
     .button-right {
-        position: relative;
+        // position: relative;
         // z-index: 100;
-        bottom: 332px;
-        left: 70px;
-        float: right;
+        // bottom: 332px;
+        // left: 70px;
+        // float: right;
+        display: flex;
         cursor: pointer;
 
         img {
@@ -36,13 +42,16 @@
 
     &__elements {
         display: flex;
-        // grid-template-columns: 30% 30% 30%;
         justify-content: space-around;
+        width: 1080px;
 
         // column-gap: 3.3%;
         &__element {
             display: grid;
             grid-template-rows: 50% 5% 25% 20%;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
             background: hsl(0, 0%, 100%);
             box-shadow: 0px 3.96897px 23.8138px rgba(0, 0, 0, 0.25);
             border-radius: 4.96121px;
@@ -117,15 +126,15 @@
 
 @media screen and (max-width: 1000px) {
     .slider {
-        position: relative;
-        bottom: 60px;
+        // position: relative;
+        // bottom: 60px;
 
         .button-left {
-            position: relative;
-            z-index: 100;
-            top: 300px;
-            right: 0;
-            width: 100px;
+            // position: relative;
+            // z-index: 100;
+            // top: 300px;
+            // right: 0;
+            // width: 100px;
             cursor: pointer;
 
             img {
@@ -137,11 +146,11 @@
         }
 
         .button-right {
-            position: relative;
-            // z-index: 100;
-            bottom: 238px;
-            left: 0;
-            float: right;
+            // position: relative;
+            // // z-index: 100;
+            // bottom: 238px;
+            // left: 0;
+            // float: right;
             cursor: pointer;
 
             img {
@@ -169,6 +178,7 @@
                 height: fit-content;
                 min-width: 200px;
                 width: 30%;
+                padding: 30px;
 
                 &__image {
                     justify-self: center;
@@ -181,7 +191,7 @@
                     font-size: 24px;
                     align-self: center;
                     margin: 0;
-                    width: min-content;
+                    width: auto;
                     text-align: center;
                     justify-self: center;
                 }
@@ -222,6 +232,127 @@
                 .key {
                     font-weight: 800;
                     font-family: Gilroy;
+                }
+            }
+        }
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .slider {
+        .button-left {
+            img {
+                &:first-child {
+                    width: 30px;
+                }
+                &:nth-child(2) {
+                    width: 30px;
+                    right: 20px;
+                }
+            }
+        }
+
+        .button-right {
+            img {
+                &:first-child {
+                    width: 30px;
+                    left: 20px;
+                }
+                &:nth-child(2) {
+                    width: 30px;
+                }
+            }
+
+        }
+
+        &__elements {
+
+            &__element {
+                grid-template-rows: 40% 10% 45% 5%;
+                min-height: 370px;
+                min-width: 150px;
+                // padding: 10px;
+
+                &__image {
+                    width: 120px;
+                }
+
+                &__title {
+                    font-size: 20px;
+                    width: auto
+                }
+
+                &__description {
+                    width: auto;
+                    max-width: auto;
+                    font-size: 12px;
+                }
+
+                &__button {
+                    justify-self: center;
+                    width: 80%;
+                    // min-width: 215px;
+                    height: 20px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 321px) {
+    .slider {
+        .button-left {
+            img {
+                &:first-child {
+                    width: 20px;
+                }
+                &:nth-child(2) {
+                    width: 20px;
+                    right: 10px;
+                }
+            }
+        }
+    
+        .button-right {
+            img {
+                &:first-child {
+                    width: 20px;
+                    left: 10px;
+                }
+                &:nth-child(2) {
+                    width: 20px;
+                }
+            }
+    
+        }
+        &__elements {
+
+            &__element {
+                min-width: 120px;
+                grid-template-rows: 30% 10% 55% 5%;
+                min-height: 300px;
+
+                &__image {
+                    width: 80px;
+                }
+    
+                &__title {
+                    font-size: 15px;
+                    width: auto
+                }
+    
+                &__description {
+                    width: auto;
+                    max-width: auto;
+                    font-size: 10px;
                 }
             }
         }

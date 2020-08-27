@@ -335,3 +335,25 @@
     }
 
 }
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .delivery {
+        &__nuts {
+            left: 50px;
+            bottom: 120px;
+        }
+
+        &__orders {
+            &__order {
+                &__step {
+                    right: 65px;
+                }
+            }
+        }
+        &__cassata_slice {
+            width: 300px;
+            bottom: 0;
+        }
+    }
+}

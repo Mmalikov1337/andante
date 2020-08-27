@@ -12,7 +12,7 @@ import './Delivery.scss'
 
 export default function Delivery() {
     return (
-        <div className='delivery main-block'>
+        <div className='delivery main-block' id="delivery">
             <img src={nuts} alt="nuts" className='delivery__nuts' />
             <div className="container">
                 <h3 className='delivery__title'>Доставка</h3>
