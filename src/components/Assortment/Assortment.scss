@@ -6,8 +6,8 @@
     position: relative;
     z-index: 3;
     background-color: #fff;
-    background:
-        url('./../../imgs/berry.png') left bottom no-repeat;
+    // background: url('./../../imgs/berry.png') (left -200px) bottom no-repeat;
+    background: url('./../../imgs/berry.png') left -200px bottom no-repeat, url('./../../imgs/chocolate-block.png') right -100px top 110px no-repeat;
     padding-bottom: 200px;
 
     &__berry {
@@ -53,4 +53,78 @@
         }
     }
 
+}
+
+@media screen and(max-width:1150px) {
+    .assortment {
+        height: fit-content;
+        // max-height: 100vh;
+        background-color: #0f0;
+        // overflow: hidden;
+        position: relative;
+        top: 150px;
+        z-index: 3;
+        background-color: #fff;
+        background: url('./../../imgs/berry.png') (right -90px) bottom no-repeat,
+            url('./../../imgs/chocolate-block.png') (right -100px) (top 110px) no-repeat;
+        background-size: 300px, 250px;
+        padding-bottom: 200px;
+
+        &__berry {
+            position: relative;
+            bottom: 350px;
+            float: left;
+        }
+
+        &__chocolate {
+            float: right;
+            position: absolute;
+        }
+
+        &__text {
+            text-align: center;
+
+            &__title {
+                font-family: Gilroy;
+                font-weight: bold;
+                font-size: 48px;
+                color: #272727;
+                margin: 0;
+
+            }
+
+            &__description {
+                font-family: Gilroy;
+                margin-top: 23px;
+                font-size: 24px;
+            }
+        }
+
+        &__button-holder {
+            display: flex;
+            justify-content: center;
+
+            &__button {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                width: 316px;
+                height: 80px;
+                margin-left: 90px;
+
+            }
+        }
+
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+    .assortment__text__title {
+        font-size: 35px;
+    }
+    .assortment__text__description {
+        font-size: 20px;
+    }
 }

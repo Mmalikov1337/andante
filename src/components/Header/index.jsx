@@ -27,20 +27,24 @@ export default function Header() {
                             <button className="header__content__button-holder__button btn">
                                 Перейти в каталог
                             </button>
-                            <img src={raspberryPNG} alt="raspberry" className = 'header__content__button-holder__raspberry'/>
-                            <img src={blueberriesPNG} alt="blueberries" className = 'header__content__button-holder__blueberries'/>
+                            {/* <div className="img-holder"> */}
+                                <img src={raspberryPNG} alt="raspberry" 
+                                className='header__content__button-holder__raspberry' />
+
+                            {/* </div> */}
+                            {/* <div className="img-container">
+                                <img src={blueberriesPNG} alt="blueberries"
+                                    className='header__content__button-holder__blueberries' />
+                            </div> */}
                         </div>
                     </div>
-                    <div className="header__image">
-                        <img src={cakePNG} alt="cake" className = 'header__image__cake'/>
-                        <img src={milkPNG} alt="milk" className = 'header__image__milk'/>
-                        <img src={strawberryPNG} alt="strawberry" className = 'header__image__strawberry'/>
-                    </div>
+                    {/* <div className="header__image">
+                        <img src={cakePNG} alt="cake" className='header__image__cake' />
+                        <img src={milkPNG} alt="milk" className='header__image__milk' />
+                        <img src={strawberryPNG} alt="strawberry" className='header__image__strawberry' />
+                    </div> */}
                 </div>
-
             </div>
-
-
         </header>
     )
 }

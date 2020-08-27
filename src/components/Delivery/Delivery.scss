@@ -1,6 +1,6 @@
 .delivery {
     height: 100vh;
-   
+
 
     &__cassata_slice {
         position: relative;
@@ -130,4 +130,230 @@
         }
     }
 
+}
+
+@media screen and (max-width: 1150px) {
+    .delivery {
+        height: fit-content;
+
+        &__cassata_slice {
+            position: relative;
+            bottom: 100px;
+        }
+
+        &__nuts {
+            float: right;
+            position: relative;
+            left: 50px; //
+            bottom: 250px;
+            z-index: 0;
+        }
+
+        &__title {
+            font-family: Gilroy;
+            font-size: 65px;
+            text-align: center;
+            position: relative;
+            left: 120px;
+            // position: relative;
+            // bottom: 170px;
+            margin: 0;
+        }
+
+        .taw {
+
+            // justify-content: space-evenly;
+        }
+
+        &__tablets {
+            display: flex;
+            flex-direction: column;
+            // grid-template-columns: repeat(7, 1fr);
+            align-items: center;
+            justify-content: space-around;
+            // box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            bottom: 150px;
+
+            &__tablet {
+                // margin: 0;
+                // transition: all .3s;
+                display: grid;
+                width: 225px;
+                height: 203px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                grid-template-rows: 55% 45%;
+
+                &:hover {
+                    background: #F0C1DB;
+
+                    p {
+                        color: #fff;
+                    }
+                }
+
+                img {
+                    align-self: center;
+                    justify-self: center;
+                }
+
+                p {
+                    align-self: center;
+                    text-align: center;
+                    font-style: normal;
+                    justify-self: center;
+                    width: 200px;
+                    font-family: Gilroy;
+                    font-size: 15px;
+                }
+            }
+
+
+
+            &__eclipse {
+                // display: flex;
+                // justify-content: center;
+
+                .wrapper {
+                    align-self: center;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    // row-gap: 10px;
+                    margin: 15px;
+
+                    img {
+                        margin: 2px;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+
+        &__orders {
+            position: relative;
+            bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &__order {
+                &__step {
+                    width: 217px;
+                    height: 65px;
+                    font-family: P22UndergroundCYProMedium;
+                    font-size: 50px;
+                    position: relative;
+                    top: 70px;
+                    right: 100px;
+                    text-align: center;
+                    color: #ECECEC;
+                }
+
+                &__title {
+                    width: 89px;
+                    height: 33px;
+                    font-family: Gilroy;
+                    font-size: 32px;
+                    line-height: 103.4%;
+                    color: #490705;
+                    margin-bottom: 12px;
+                }
+
+                &__description {
+                    width: 217px;
+                    height: 35px;
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 103.4%;
+                    color: #000000;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 633px) {
+    .delivery {
+
+        &__cassata_slice {}
+
+        &__nuts {}
+
+        &__title {
+            left: 0;
+            bottom: 180px;
+        }
+
+        .taw {
+
+        }
+
+        &__tablets {
+
+            &__tablet {
+
+                &:hover {
+
+                    p {}
+                }
+
+                img {}
+
+                p {}
+            }
+
+
+
+            &__eclipse {
+
+                .wrapper {
+
+                    img {}
+                }
+            }
+        }
+
+        &__orders {
+
+            &__order {
+                &__step {}
+
+                &__title {}
+
+                &__description {}
+            }
+        }
+
+    }
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .delivery {
+        &__nuts {
+            left: 50px;
+            bottom: 120px;
+        }
+
+        &__orders {
+            &__order {
+                &__step {
+                    right: 65px;
+                }
+            }
+        }
+        &__cassata_slice {
+            width: 300px;
+            bottom: 0;
+        }
+    }
 }

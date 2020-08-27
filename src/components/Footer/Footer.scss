@@ -5,7 +5,7 @@
     // grid-template-columns: 1fr 1fr 1fr;
 
     &__menu {
-
+        margin-right: 200px;
         &__title {
             font-weight: bold;
             font-size: 18px;
@@ -48,4 +48,55 @@
             height: 75px;
         }
     }
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Landscape phones and smaller */
+@media (max-width: 1080px) {
+    .test {
+        flex-direction: column;
+    }
+    .footer {
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 10px;
+    }
+    .footer__link {
+        background: url(/andante/static/media/ADNA_logo.58e1863f.png) top right no-repeat;
+        // background-size: 130px 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 300px;
+        bottom: 30px;
+        position: relative;
+    }
+    .footer__menu {
+        margin-right: 0;
+    };
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .footer__link__button {
+        width: 159px;
+        height: 37.5px;
+    }
+
+    .footer__link {
+        background-size: 150px auto;
+    }
+
+    .footer {
+        height: auto;
+        padding: 10px;
+    }
+    .footer__menu {
+        margin-right: 0;
+    };
+    
 }

@@ -1,52 +1,52 @@
 .recall {
-    height: 100vh;
-    
-    // &__berry {
-    //     position: relative;
-    //     z-index: -22;
-    //     float: left;
-    //     display: inline-flex;
-    //     // bottom: 250px;
-    //     // top: 5200px;
+    height: fit-content;
 
-    // }
+    .container {
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     &__title {
         font-family: Gilroy;
         font-weight: bold;
         font-size: 64.485px;
-        // position: relative;
+        position: relative;
+        z-index: 3;
+        text-align: center;
         margin-top: 0;
-        // top: 150px;
-        // right: 190px;
     }
 
     &__wrapper {
-        // position: relative;
-        // top: 200px;
         display: flex;
         border-radius: 10px;
-        // justify-content: space-evenly;//
 
         &__image {
             width: 295px;
             height: 298.51px;
             position: relative;
-            left: 110px;
+            // left: 110px;
             align-self: center;
+            z-index: 2;
         }
 
         &__block {
             background: url('./../../imgs/recallBlockBG.png');
             background-color: #FFF3F9;
             // display: flex;
-            max-width: 798px;
+            max-width: 1000px;
+            position: relative;
+            right: 110px;
 
             &__text {
                 margin-right: 100px;
                 margin: 100px;
                 position: relative;
                 left: 30px;
+
                 &__title {
                     font-family: Gilroy;
                     font-style: normal;
@@ -60,18 +60,102 @@
                     font-style: normal;
                     font-weight: 500;
                     font-size: 15px;
-                    // width: 548px;
                     line-height: 18px;
                 }
             }
 
             &__arrow {
-                // margin-left: auto;
-                // align-self: flex-end;
                 margin-left: 90%;
-                // margin-right: 20px;
                 margin-bottom: 20px;
                 cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1150px) {
+    .recall {
+        height: fit-content;
+
+        &__title {
+            font-family: Gilroy;
+            font-weight: bold;
+            font-size: 64.485px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        // width: 100%;
+        // height: 100%;
+        // position: fixed;
+
+        // overflow: auto;
+        .container {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 95%;
+        }
+
+        &__wrapper {
+            display: grid;
+            grid-template-columns: 3% 97%;
+            border-radius: 10px;
+
+            &__image {
+                width: 145px;
+                height: 145px;
+                position: relative;
+                right: 25px;
+                align-self: center;
+                z-index: 2;
+            }
+
+            &__block {
+                background: url('./../../imgs/recallBlockBG.png');
+                background-color: #FFF3F9;
+                width: 90%;
+                margin: 0 auto;
+
+                padding: 10px;
+                // display: flex;
+                // max-width: 1000px;
+                // position: relative;
+                right: 0;
+
+                &__text {
+                    // margin-right: 100px;
+                    // margin: 0;
+                    position: relative;
+                    width: 60%;
+                    // left: 30px;
+                    margin: 0 auto;
+
+                    &__title {
+                        font-family: Gilroy;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 35px;
+                    }
+
+                    &__description {
+                        font-family: Gilroy;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: auto;
+                        margin: 0 auto;
+                    }
+                }
+
+                &__arrow {
+                    // margin-left: 90%;
+                    // margin-bottom: 20px;
+                    // cursor: pointer;
+                    display: none;
+                }
             }
         }
     }

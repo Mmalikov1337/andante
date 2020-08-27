@@ -29,7 +29,11 @@
                 display: inline;
                 margin-left: 20px;
             }
-
+            .minus{
+                display: flex;
+                align-self: flex-start;
+                margin-top: 45px;
+            }
             .title {
                 font-family: Gilroy;
                 font-style: normal;
@@ -50,5 +54,16 @@
                 }
             }
         }
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .questions__title {
+        font-size: 35px;
+        line-height: inherit;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }

@@ -7,7 +7,7 @@ import './Recall.scss'
 
 export default function Recall() {
     return (
-        <div className='recall main-block'>
+        <div className='recall main-block' id="recall">
             {/* <img src={berryPNG} alt="berryPNG"
                 className='recall__berry' /> */}
             <div className="container">
