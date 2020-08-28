@@ -46,17 +46,6 @@
         background-size: contain, 150px;
         background-repeat: no-repeat;
 
-        // &__raspberry {
-        //     // display: flex;
-        //     // flex-direction: column-reverse;
-        //     // align-self: center;
-        //     top: 180px;
-        //     position: relative;
-        //     float: right;
-        //     display: none;
-        //     // left: 90%;
-        // }
-
         &__text {
             text-align: center;
 
@@ -102,6 +91,36 @@
         //     display: none;
         //     // left: 90%;
         // }
+
+        &__text {
+            text-align: center;
+
+            &__title {
+                font-family: Gilroy;
+                font-weight: bold;
+                font-size: 48px;
+                color: #272727;
+                padding-top: 185px;
+                margin: 0;
+            }
+
+            &__description {
+                font-family: Gilroy;
+                margin-top: 23px;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width:480px) {
+    .catalog {
+        height: 900px;
+        background-color: #fff;
+        background: url('./../../imgs/underHeader.png'),
+            url('./../../imgs/raspberry_catalog.png') (top 330px) right no-repeat;
+        background-size: contain, 100px;
+        background-repeat: no-repeat;
 
         &__text {
             text-align: center;

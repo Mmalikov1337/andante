@@ -3,6 +3,7 @@
     background-size: cover;
     background-image: url('./../../imgs/aboutBg.png');
     box-sizing: border-box;
+
     // padding-bottom: 200px;
     &__fog {}
 
@@ -118,14 +119,16 @@
 
             &__item {
                 font-family: Gilroy;
-                font-size: 22px;
-                line-height: 26px;
+                font-size: 45.4806px;
+                line-height: 55px;
                 position: relative;
                 z-index: 1;
 
                 img {
                     position: relative;
                     z-index: 1;
+                    width: 421.73px;
+                    height: 316.3px;
                 }
 
                 .left &:nth-child(2n-1) {
@@ -200,7 +203,8 @@
             text-align: center;
 
             img {
-                height: 140px;
+                height: 10%;
+                width: auto;
             }
 
             .right {

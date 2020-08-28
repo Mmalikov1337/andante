@@ -6,6 +6,7 @@
 
     &__menu {
         margin-right: 200px;
+
         &__title {
             font-weight: bold;
             font-size: 18px;
@@ -43,6 +44,7 @@
         height: 200px;
         background: url('./../../imgs/ADNA_logo.png') bottom right no-repeat;
         background-size: 130px 100px;
+
         &__button {
             width: 318px;
             height: 75px;
@@ -61,11 +63,13 @@
     .test {
         flex-direction: column;
     }
+
     .footer {
         justify-content: space-around;
         align-items: flex-end;
         padding: 10px;
     }
+
     .footer__link {
         background: url('./../../imgs/ADNA_logo.png') top right no-repeat;
         // background-size: 130px 100px;
@@ -75,9 +79,12 @@
         bottom: 30px;
         position: relative;
     }
+
     .footer__menu {
         margin-right: 0;
-    };
+    }
+
+    ;
 }
 
 /* Landscape phones and smaller */
@@ -93,10 +100,46 @@
 
     .footer {
         height: auto;
-        padding: 10px;
+        padding: 20px;
     }
+
     .footer__menu {
         margin-right: 0;
-    };
-    
+    }
+
+    ;
+
+}
+
+@media screen and(max-width:320px) {
+    .footer__link__button {
+        width: 159px;
+        height: 37.5px;
+    }
+
+    .footer__link {
+        background-size: 150px auto;
+
+        // height: 200px;
+        // background: url('./../../imgs/ADNA_logo.png') bottom right no-repeat;
+        background-size: 110px auto;
+
+        button {
+            width: 100%;
+        }
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .footer__menu {
+        margin-right: 0;
+    }
+
+    ;
+
 }

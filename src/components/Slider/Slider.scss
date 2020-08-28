@@ -356,8 +356,10 @@
             cursor: pointer;
             position: relative;
             left: 20px;
+
             img {
                 position: relative;
+
                 &:nth-child(2) {
                     position: relative;
                     right: 30px;
@@ -369,6 +371,7 @@
             cursor: pointer;
             position: relative;
             right: 20px;
+
             img {
                 &:first-child {
                     position: relative;
@@ -381,21 +384,15 @@
         &__elements {
             display: flex;
             justify-content: space-around;
-            
+
             &__element {
                 display: flex;
                 flex-direction: column;
-                // grid-template-rows: 35% 5% 45% 15%;
-                // background: #fff;
-                // box-shadow: 0px 3.96897px 23.8138px rgba(0, 0, 0, 0.25);
-                // border-radius: 4.96121px;
-                // align-content: center;
-                // justify-content: space-around;
                 min-height: 450px;
                 height: fit-content;
                 // min-width: 200px;
                 width: 90%;
-                padding: 0 10px  20px 10px;
+                padding: 0 10px 20px 10px;
 
                 &__image {
                     justify-self: center;
@@ -460,55 +457,164 @@
     }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 360px) {
+    // .slider {
+    //     .button-left {
+    //         img {
+    //             &:first-child {
+    //                 width: 20px;
+    //             }
+
+    //             &:nth-child(2) {
+    //                 width: 20px;
+    //                 right: 10px;
+    //             }
+    //         }
+    //     }
+
+    //     .button-right {
+    //         img {
+    //             &:first-child {
+    //                 width: 20px;
+    //                 left: 10px;
+    //             }
+
+    //             &:nth-child(2) {
+    //                 width: 20px;
+    //             }
+    //         }
+
+    //     }
+
+    //     &__elements {
+
+    //         &__element {
+    //             min-width: 120px;
+    //             grid-template-rows: 30% 10% 55% 5%;
+    //             min-height: 300px;
+
+    //             &__image {
+    //                 width: 80px;
+    //             }
+
+    //             &__title {
+    //                 font-size: 15px;
+    //                 width: auto
+    //             }
+
+    //             &__description {
+    //                 width: auto;
+    //                 max-width: auto;
+    //                 font-size: 10px;
+    //             }
+    //         }
+    //     }
+    // }
     .slider {
         .button-left {
+            cursor: pointer;
+            position: relative;
+            left: 30px;
+
             img {
-                &:first-child {
-                    width: 20px;
-                }
+
+                width: 35px;
+                height: auto;
+                position: relative;
 
                 &:nth-child(2) {
-                    width: 20px;
-                    right: 10px;
+                    position: relative;
+                    right: 45px;
                 }
             }
         }
 
         .button-right {
-            img {
-                &:first-child {
-                    width: 20px;
-                    left: 10px;
-                }
+            cursor: pointer;
+            position: relative;
+            right: 30px;
 
-                &:nth-child(2) {
-                    width: 20px;
+            img {
+                width: 35px;
+                height: auto;
+                &:first-child {
+                    position: relative;
+                    left: 45px;
                 }
             }
 
         }
 
         &__elements {
+            display: flex;
+            justify-content: space-around;
 
             &__element {
-                min-width: 120px;
-                grid-template-rows: 30% 10% 55% 5%;
-                min-height: 300px;
+                display: flex;
+                flex-direction: column;
+                min-height: 450px;
+                height: fit-content;
+                min-width: 200px;
+                width: 230px;
+                padding: 0 10px 20px 10px;
 
                 &__image {
-                    width: 80px;
+                    justify-self: center;
+                    align-self: center;
+                    width: 150px;
+                    padding-top: 10px;
                 }
 
                 &__title {
-                    font-size: 15px;
-                    width: auto
+                    font-family: Gilroy;
+                    // font-size: 24px;
+                    font-size: 30px;
+                    align-self: center;
+                    // width: 90%;
+                    margin: 0;
+                    width: auto;
+                    text-align: center;
+                    justify-self: center;
                 }
 
                 &__description {
-                    width: auto;
-                    max-width: auto;
-                    font-size: 10px;
+                    font-family: Gilroy;
+                    justify-self: center;
+                    align-self: center;
+                    padding-top: 0;
+                    // font-size: 14px;
+                    font-size: 16px;
+                    line-height: 16px;
+                    margin-top: 0;
+                    width: 90%;
+                    max-width: 90%;
+                }
+
+                &__button {
+                    justify-self: center;
+                    align-self: center;
+                    width: 90%;
+                    // min-width: 215px;
+                    height: 60px;
+                    font-size: 18px;
+                }
+
+                .options {
+                    margin: 0;
+                    display: block;
+                }
+
+                .price {
+                    display: block;
+                    margin-top: 10px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    font-weight: 800;
+                }
+
+                .key {
+                    font-weight: 800;
+                    font-family: Gilroy;
                 }
             }
         }
