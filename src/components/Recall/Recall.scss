@@ -28,7 +28,7 @@
             width: 295px;
             height: 298.51px;
             position: relative;
-            // left: 110px;
+            left: 20px;
             align-self: center;
             z-index: 2;
         }
@@ -46,6 +46,7 @@
                 margin: 100px;
                 position: relative;
                 left: 30px;
+                padding-left: 30px;
 
                 &__title {
                     font-family: Gilroy;
