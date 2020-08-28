@@ -55,7 +55,7 @@ export default function Catalog() {
     
     return (
         <div className='catalog main-block'>
-            <img src={raspberryCatalogPNG} alt="raspberryCatalogPNG" className='catalog__raspberry' />
+            {/* <img src={raspberryCatalogPNG} alt="raspberryCatalogPNG" className='catalog__raspberry' /> */}
             <div className="container">
                 <div className="catalog__text">
                     <h3 className='catalog__text__title'

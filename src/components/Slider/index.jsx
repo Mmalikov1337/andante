@@ -15,17 +15,17 @@ export default function Slider({ SliderInfo, button }) {
             const updateSize = () => {
                 if (Number(window.innerWidth) <= 1080) {
                     setActiveTabs(1);
-                    console.log('actTabs IF', activeTabs, window.innerWidth);
+                    // console.log('actTabs IF', activeTabs, window.innerWidth);
                 } else if (Number(window.innerWidth) <= 1400) {
                     setActiveTabs(2);
-                    console.log('actTabs IF', activeTabs, window.innerWidth);
+                    // console.log('actTabs IF', activeTabs, window.innerWidth);
                 } else {
                     setActiveTabs(3);
-                    console.log('actTabs ELSE', activeTabs, window.innerWidth);
+                    // console.log('actTabs ELSE', activeTabs, window.innerWidth);
                 }
 
                 setstate([0, activeTabs]);
-                console.log(activeTabs, Number(window.innerWidth));
+                // console.log(activeTabs, Number(window.innerWidth));
             }
             window.addEventListener('resize', updateSize);
             updateSize();
@@ -38,13 +38,13 @@ export default function Slider({ SliderInfo, button }) {
     function next() {
         if (state[1] > tabsQuontity) {
             setstate([0, activeTabs]);
-            console.log('next if', state);
+            // console.log('next if', state);
 
         } else {
-            console.log('next else', state);
+            // console.log('next else', state);
 
             setstate([state[0] + 1, state[1] + 1]);
-            console.log('next else', state);
+            // console.log('next else', state);
 
         }
     }
@@ -52,10 +52,10 @@ export default function Slider({ SliderInfo, button }) {
     function prew() {
         if (state[0] <= 0) {
             setstate([tabsQuontity + 1 - activeTabs, tabsQuontity + 1]);
-            console.log('prew if', state);
+            // console.log('prew if', state);
         } else {
             setstate([state[0] - 1, state[1] - 1]);
-            console.log('prew else', state);
+            // console.log('prew else', state);
         }
     }
     // useWindowSize();

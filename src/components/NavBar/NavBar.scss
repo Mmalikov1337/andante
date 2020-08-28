@@ -66,7 +66,7 @@
 
 }
 
-@media screen and(min-width:1150px) {
+@media screen and(min-width:1080px) {
     .navbar {
         &__logo-container {
 
@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and(max-width:1150px) {
+@media screen and(max-width:1080px) {
     .navbar {
         grid-template-columns: 15% 85%;
         height: 85px;
@@ -123,12 +123,12 @@
 
             &__burger {
                 display: flex;
-                align-self: flex-start;
-                width: 105px;
-                height: 109px;
-
+                // align-self: flex-end;
+                width: 110px;
+                height: 100px;
+                // flex-direction: column-reverse;
                 img {
-                    width: 170px;
+                    width: 140px;
                     // align-self: auto;
                     // justify-self: right;
 
@@ -139,12 +139,10 @@
 
             button {
                 display: none;
-
             }
 
             &__phone {
                 display: none;
-
             }
         }
     }

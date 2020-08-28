@@ -132,13 +132,13 @@
 
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1080px) {
     .delivery {
         height: fit-content;
 
         &__cassata_slice {
             position: relative;
-            bottom: 100px;
+            bottom: 10px;
         }
 
         &__nuts {
@@ -146,12 +146,15 @@
             position: relative;
             left: 50px; //
             bottom: 250px;
+            padding-left: 100%;
             z-index: 0;
         }
 
         &__title {
             font-family: Gilroy;
-            font-size: 65px;
+            // font-size: 65px;
+            
+            font-size: 96px;
             text-align: center;
             position: relative;
             left: 120px;
@@ -180,8 +183,11 @@
                 // margin: 0;
                 // transition: all .3s;
                 display: grid;
-                width: 225px;
-                height: 203px;
+                width: 500px;
+                height: 490px;
+                max-width: 100%;
+                max-height: fit-content;
+                // max-height: 100%;
                 background: #FFFFFF;
                 box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
                 border-radius: 5px;
@@ -198,6 +204,8 @@
                 img {
                     align-self: center;
                     justify-self: center;
+                    width: 308px;
+                    height: auto;
                 }
 
                 p {
@@ -205,9 +213,12 @@
                     text-align: center;
                     font-style: normal;
                     justify-self: center;
-                    width: 200px;
+
+                    font-size: 36.0933px;
+                    line-height: 43px;
+                    width: 90%;
                     font-family: Gilroy;
-                    font-size: 15px;
+                    // font-size: 15px;
                 }
             }
 
@@ -238,39 +249,47 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            align-items: center;
-
+            align-items: flex-end;
+            
             &__order {
                 &__step {
-                    width: 217px;
-                    height: 65px;
-                    font-family: P22UndergroundCYProMedium;
-                    font-size: 50px;
+                    width: 200px;
+                    height: auto;
+                    font-family: Gilroy;
+                    // font-size: 50px;
+
+                    font-size: 109.656px;
                     position: relative;
-                    top: 70px;
+                    
+                    top: 150px;
                     right: 100px;
                     text-align: center;
                     color: #ECECEC;
                 }
 
                 &__title {
-                    width: 89px;
+                    width: 200px;
                     height: 33px;
                     font-family: Gilroy;
-                    font-size: 32px;
-                    line-height: 103.4%;
+                    // font-size: 32px;
+                    position: relative;
+                    // bottom: 100px;
+                    font-size: 73.1042px;
+                    // line-height: 103.4%;
                     color: #490705;
-                    margin-bottom: 12px;
+                    margin-bottom: 60px;
                 }
 
                 &__description {
-                    width: 217px;
+                    width: fit-content;
+                    max-width: 600px;
                     height: 35px;
                     font-family: Gilroy;
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 18px;
-                    line-height: 103.4%;
+                    // font-size: 18px;
+                    font-size: 41.1211px;
+                    line-height: 100%;
                     color: #000000;
                 }
             }
@@ -280,80 +299,401 @@
 }
 
 
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 1080px) {
     .delivery {
+        height: fit-content;
 
-        &__cassata_slice {}
+        &__cassata_slice {
+            position: relative;
+            bottom: 10px;
+        }
 
-        &__nuts {}
+        &__nuts {
+            float: right;
+            position: relative;
+            left: 50px; //
+            bottom: 250px;
+            z-index: 0;
+        }
 
         &__title {
+            font-family: Gilroy;
+            // font-size: 65px;
+            
+            font-size: 96px;
+            text-align: center;
+            position: relative;
             left: 0;
-            bottom: 180px;
+            bottom: 170px;
+            // position: relative;
+            // bottom: 170px;
+            margin: 0;
         }
 
         .taw {
 
+            // justify-content: space-evenly;
         }
 
         &__tablets {
+            display: flex;
+            flex-direction: column;
+            // grid-template-columns: repeat(7, 1fr);
+            align-items: center;
+            justify-content: space-around;
+            // box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            bottom: 150px;
 
             &__tablet {
+                // margin: 0;
+                // transition: all .3s;
+                display: grid;
+                width: 500px;
+                height: 490px;
+                max-width: 100%;
+                max-height: fit-content;
+                // max-height: 100%;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                grid-template-rows: 55% 45%;
 
                 &:hover {
+                    background: #F0C1DB;
 
-                    p {}
+                    p {
+                        color: #fff;
+                    }
                 }
 
-                img {}
+                img {
+                    align-self: center;
+                    justify-self: center;
+                    width: 308px;
+                    height: auto;
+                }
 
-                p {}
+                p {
+                    align-self: center;
+                    text-align: center;
+                    font-style: normal;
+                    justify-self: center;
+
+                    font-size: 36.0933px;
+                    line-height: 43px;
+                    width: 90%;
+                    font-family: Gilroy;
+                    // font-size: 15px;
+                }
             }
 
 
 
             &__eclipse {
+                // display: flex;
+                // justify-content: center;
 
                 .wrapper {
+                    align-self: center;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    // row-gap: 10px;
+                    margin: 15px;
 
-                    img {}
+                    img {
+                        margin: 2px;
+                        align-self: center;
+                    }
                 }
             }
         }
 
         &__orders {
-
+            position: relative;
+            bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-end;
+            
             &__order {
-                &__step {}
+                &__step {
+                    width: 200px;
+                    height: auto;
+                    font-family: Gilroy;
+                    // font-size: 50px;
 
-                &__title {}
+                    font-size: 109.656px;
+                    position: relative;
+                    
+                    top: 150px;
+                    right: 100px;
+                    text-align: center;
+                    color: #ECECEC;
+                }
 
-                &__description {}
+                &__title {
+                    width: 200px;
+                    height: 33px;
+                    font-family: Gilroy;
+                    // font-size: 32px;
+                    position: relative;
+                    // bottom: 100px;
+                    font-size: 73.1042px;
+                    // line-height: 103.4%;
+                    color: #490705;
+                    margin-bottom: 60px;
+                }
+
+                &__description {
+                    width: fit-content;
+                    max-width: 600px;
+                    height: 35px;
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 500;
+                    // font-size: 18px;
+                    font-size: 41.1211px;
+                    line-height: 100%;
+                    color: #000000;
+                }
             }
         }
 
     }
-
 }
+
+@media screen and (max-width: 730px) {
+    .delivery {
+        &__orders {
+            &__order {
+                &__step {
+                    right: 0;
+                }
+            }
+        }
+
+    }
+}
+
+
+// @media screen and (max-width: 633px) {
+//     .delivery {
+
+//         &__cassata_slice {}
+
+//         &__nuts {}
+
+//         &__title {
+//             left: 0;
+//             bottom: 180px;
+//         }
+
+//         .taw {}
+
+//         &__tablets {
+
+//             &__tablet {
+
+//                 &:hover {
+
+//                     p {}
+//                 }
+
+//                 img {}
+
+//                 p {}
+//             }
+
+
+
+//             &__eclipse {
+
+//                 .wrapper {
+
+//                     img {}
+//                 }
+//             }
+//         }
+
+//         &__orders {
+
+//             &__order {
+//                 &__step {}
+
+//                 &__title {}
+
+//                 &__description {}
+//             }
+//         }
+
+//     }
+
+// }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
     .delivery {
-        &__nuts {
-            left: 50px;
-            bottom: 120px;
+        height: fit-content;
+
+        &__cassata_slice {
+            position: relative;
+            bottom: 0;
         }
 
-        &__orders {
-            &__order {
-                &__step {
-                    right: 65px;
+        &__nuts {
+            float: right;
+            position: relative;
+            left: 50px; //
+            bottom: 250px;
+            z-index: 0;
+        }
+
+        &__title {
+            font-family: Gilroy;
+            // font-size: 65px;
+
+            font-size: 48px;
+            text-align: center;
+            position: relative;
+            // left: 0;
+            // position: relative;
+            // bottom: 170px;
+            margin: 0;
+        }
+
+        .taw {
+
+            // justify-content: space-evenly;
+        }
+
+        &__tablets {
+            display: flex;
+            flex-direction: column;
+            // grid-template-columns: repeat(7, 1fr);
+            align-items: center;
+            justify-content: space-around;
+            // box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            bottom: 150px;
+
+            &__tablet {
+                // margin: 0;
+                // transition: all .3s;
+                display: grid;
+                width: 500px;
+                height: 490px;
+                max-width: 100%;
+                max-height: fit-content;
+                // max-height: 100%;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                grid-template-rows: 55% 45%;
+
+                &:hover {
+                    background: #F0C1DB;
+
+                    p {
+                        color: #fff;
+                    }
+                }
+
+                img {
+                    align-self: center;
+                    justify-self: center;
+                    width: 308px;
+                    height: auto;
+                }
+
+                p {
+                    align-self: center;
+                    text-align: center;
+                    font-style: normal;
+                    justify-self: center;
+
+                    font-size: 24px;
+                    line-height: 43px;
+                    width: 90%;
+                    font-family: Gilroy;
+                    // font-size: 15px;
+                }
+            }
+
+
+
+            &__eclipse {
+                // display: flex;
+                // justify-content: center;
+
+                .wrapper {
+                    align-self: center;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    // row-gap: 10px;
+                    margin: 15px;
+
+                    img {
+                        margin: 2px;
+                        align-self: center;
+                    }
                 }
             }
         }
-        &__cassata_slice {
-            width: 300px;
-            bottom: 0;
+
+        &__orders {
+            position: relative;
+            bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-end;
+            
+            &__order {
+                &__step {
+                    width: fit-content;
+                    height: auto;
+                    font-family: Gilroy;
+                    // font-size: 50px;
+
+                    font-size: 70px;
+                    position: relative;
+                    
+                    top: 100px;
+                    right: 80px;
+                    text-align: center;
+                    color: #ECECEC;
+                }
+
+                &__title {
+                    width: 200px;
+                    height: 33px;
+                    font-family: Gilroy;
+                    // font-size: 32px;
+                    
+                    font-size: 50px;
+                    // line-height: 103.4%;
+                    color: #490705;
+                    margin-bottom: 60px;
+                }
+
+                &__description {
+                    width: 100%;
+                    max-width: fit-content;
+                    height: 35px;
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 500;
+                    // font-size: 18px;
+                    font-size: 24px;
+                    line-height: 100%;
+                    color: #000000;
+                }
+            }
         }
+
     }
 }

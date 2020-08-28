@@ -1,19 +1,22 @@
 .catalog {
     height: 100vh;
+    min-height: fit-content;
     background-color: #fff;
-    background-image: url('./../../imgs/underHeader.png');
-    background-size: contain;
+    background: url('./../../imgs/underHeader.png'),
+        url('./../../imgs/raspberry_catalog.png') (top 250px) right no-repeat;
+    background-size: contain, 150px;
+
     background-repeat: no-repeat;
 
-    &__raspberry {
-        // display: flex;
-        // flex-direction: column-reverse;
-        // align-self: center;
-        top: 180px;
-        position: relative;
-        float: right;
-        // left: 90%;
-    }
+    // &__raspberry {
+    //     // display: flex;
+    //     // flex-direction: column-reverse;
+    //     // align-self: center;
+    //     top: 180px;
+    //     position: relative;
+    //     float: right;
+    //     // left: 90%;
+    // }
 
     &__text {
         &__title {
@@ -21,8 +24,9 @@
             font-weight: bold;
             font-size: 64px;
             color: #272727;
-            padding-top: 185px;
+            padding-top: 200px;
             margin: 0;
+
         }
 
         &__description {
@@ -33,25 +37,71 @@
     }
 }
 
-@media screen and(max-width:1150px) {
+@media screen and(max-width:1080px) {
+    .catalog {
+        height: fit-content;
+        background-color: #fff;
+        background: url('./../../imgs/underHeader.png'),
+            url('./../../imgs/raspberry_catalog.png') (top 200px) right no-repeat;
+        background-size: contain, 150px;
+        background-repeat: no-repeat;
+
+        // &__raspberry {
+        //     // display: flex;
+        //     // flex-direction: column-reverse;
+        //     // align-self: center;
+        //     top: 180px;
+        //     position: relative;
+        //     float: right;
+        //     display: none;
+        //     // left: 90%;
+        // }
+
+        &__text {
+            text-align: center;
+
+            &__title {
+                font-family: Gilroy;
+                font-weight: bold;
+                // font-size: 48px;
+                font-size: 96px;
+
+                color: #272727;
+                padding-top: 150px;
+                margin: 0;
+            }
+
+            &__description {
+                font-family: Gilroy;
+                margin-top: 23px;
+                // font-size: 24px;
+                font-size: 43px;
+                padding-bottom: 90px;
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:480px) {
     .catalog {
         height: 900px;
         background-color: #fff;
         background: url('./../../imgs/underHeader.png'),
-            url('./../../imgs/raspberry_catalog.png') (top 200px) right no-repeat;
-        background-size: contain, 150px auto;
+            url('./../../imgs/raspberry_catalog.png') (top 330px) right no-repeat;
+        background-size: contain, 100px;
         background-repeat: no-repeat;
 
-        &__raspberry {
-            // display: flex;
-            // flex-direction: column-reverse;
-            // align-self: center;
-            top: 180px;
-            position: relative;
-            float: right;
-            display: none;
-            // left: 90%;
-        }
+        // &__raspberry {
+        //     // display: flex;
+        //     // flex-direction: column-reverse;
+        //     // align-self: center;
+        //     top: 180px;
+        //     position: relative;
+        //     float: right;
+        //     display: none;
+        //     // left: 90%;
+        // }
 
         &__text {
             text-align: center;
@@ -71,7 +121,5 @@
                 font-size: 24px;
             }
         }
-
-
     }
 }

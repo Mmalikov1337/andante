@@ -55,7 +55,7 @@
 
 }
 
-@media screen and(max-width:1150px) {
+@media screen and(max-width:1080px) {
     .assortment {
         height: fit-content;
         // max-height: 100vh;
@@ -87,7 +87,8 @@
             &__title {
                 font-family: Gilroy;
                 font-weight: bold;
-                font-size: 48px;
+                // font-size: 48px;
+                font-size: 64.485px;
                 color: #272727;
                 margin: 0;
 
@@ -96,7 +97,8 @@
             &__description {
                 font-family: Gilroy;
                 margin-top: 23px;
-                font-size: 24px;
+                // font-size: 24px;
+                font-size: 36px;
             }
         }
 
