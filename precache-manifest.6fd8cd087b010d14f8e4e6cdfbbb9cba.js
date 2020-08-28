@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c26991097540abab9644ff1981ba51e3",
+    "revision": "3f40f7b0da12f0cbac0ca91e85680f3e",
     "url": "/andante/index.html"
   },
   {
-    "revision": "d74c4b923227211b3ecf",
-    "url": "/andante/static/css/main.926393d0.chunk.css"
+    "revision": "5120715802ff92a38f54",
+    "url": "/andante/static/css/main.060376f9.chunk.css"
   },
   {
     "revision": "797de9dfe77b7de809df",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/js/2.060d443b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d74c4b923227211b3ecf",
+    "revision": "5120715802ff92a38f54",
     "url": "/andante/static/js/main.ad40853b.chunk.js"
   },
   {
