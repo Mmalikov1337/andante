@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavBar } from './../'
 import raspberryPNG from './../../imgs/raspberry.png'
-import cakePNG from './../../imgs/cake.png'
-import milkPNG from './../../imgs/milk.png'
+import cakePNG from './../../imgs/cake.svg'
+import milkPNG from './../../imgs/milk.svg'
 import strawberryPNG from './../../imgs/strawberry.png'
-import blueberriesPNG from './../../imgs/blueberries.png'
+import blueberriesPNG from './../../imgs/blueberries.svg'
 import './Header.scss'
 
 export default function Header() {

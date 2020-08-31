@@ -8,7 +8,7 @@
     justify-content: start;
     background: url('./../../imgs/fog.png') bottom no-repeat,
         url('./../../imgs/chefBackCall.png') 55% no-repeat,
-        url('./../../imgs/milk.png') right no-repeat;
+        url('./../../imgs/milk.svg') right no-repeat;
     // #000;
 
     // flex-direction: column-reverse;
@@ -129,7 +129,7 @@
         background: url('./../../imgs/purepng.png') top right -150px no-repeat,
             url('./../../imgs/fog.png') bottom no-repeat,
             url('./../../imgs/chefBackCall.png') bottom (left -100px) no-repeat,
-            url('./../../imgs/mikl_reverse.png') bottom (left -100px) no-repeat;
+            url('./../../imgs/mikl_reverse.svg') bottom (left -100px) no-repeat;
 
         background-size: 400px, auto, auto 50%,auto 60%;
         .wrap {

@@ -1,7 +1,7 @@
 .about_us {
     height: 100vh;
     background: url('./../../imgs/fog.png') bottom/ contain no-repeat,
-        url('./../../imgs/chef_aboutus.png') bottom (right 100px) no-repeat,
+        url('./../../imgs/chef_aboutus.svg') bottom (right 100px) no-repeat,
         url('./../../imgs/fog_rev.png') top/ contain no-repeat,
         url('./../../imgs/aboutUsBG.png') bottom/ cover no-repeat;
     min-height: fit-content;
@@ -119,7 +119,7 @@
     .about_us {
         height: fit-content;
         background: url('./../../imgs/fog.png') bottom/ contain no-repeat,
-            url('./../../imgs/chef_aboutus.png') bottom (right -60px) no-repeat,
+            url('./../../imgs/chef_aboutus.svg') bottom (right -60px) no-repeat,
             url('./../../imgs/fog_rev.png') top/ contain no-repeat,
             url('./../../imgs/aboutUsBG.png') bottom/ cover no-repeat;
 
