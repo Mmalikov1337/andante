@@ -1,6 +1,4 @@
 import React from 'react'
-import chefPNG from './../../imgs/chef_fog.png'
-import chocolatePNG from './../../imgs/chocolate-block.png'
 
 import './AboutUs.scss'
 

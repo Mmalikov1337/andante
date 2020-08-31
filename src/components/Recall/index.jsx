@@ -1,5 +1,4 @@
 import React from 'react'
-import berryPNG from './../../imgs/berry.png'
 import recallCakePNG from './../../imgs/recall-cake.png'
 import recallArrowSVG from './../../imgs/recallArow.svg'
 

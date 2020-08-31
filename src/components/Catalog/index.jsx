@@ -2,7 +2,6 @@ import React from 'react'
 import springformPNG from './../../imgs/springform_flachboden_zenker_creativestudio.png'
 import donutCaramelPNG from './../../imgs/donut_caramel.png'
 import chocolatePNG from './../../imgs/chocolate.png'
-import raspberryCatalogPNG from './../../imgs/raspberry_catalog.png'
 import TEMORARY_PNG from './../../imgs/TEMORARY.png'
 
 import Slider from './../Slider'

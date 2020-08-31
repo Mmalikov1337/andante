@@ -1,7 +1,4 @@
 import React from 'react'
-import chefBackCallPNG from './../../imgs/chefBackCall.png'
-import purepngPNG from './../../imgs/purepng.png'
-import milkPNG from './../../imgs/milk.png'
 
 import './BckCall.scss'
 
