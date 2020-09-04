@@ -223,6 +223,8 @@
                 img {
                     position: relative;
                     z-index: 1;
+                    width: 60%;
+                    height: auto;
                 }
 
                 .left &:nth-child(2n-1) {
