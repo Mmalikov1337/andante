@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50bae5e928ae134bf525616b2f3fec38",
+    "revision": "58ab136b05f10d895a87a74fdf41d467",
     "url": "/andante/index.html"
   },
   {
-    "revision": "6db886a94f0f2d328e45",
-    "url": "/andante/static/css/main.37366087.chunk.css"
+    "revision": "ea2bc856efd9ed475d71",
+    "url": "/andante/static/css/main.c393bc5d.chunk.css"
   },
   {
-    "revision": "ee84a450024a7441ad6c",
-    "url": "/andante/static/js/2.7c7fd53c.chunk.js"
+    "revision": "c94ce219b40bfc063f98",
+    "url": "/andante/static/js/2.adc337fe.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.7c7fd53c.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.adc337fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6db886a94f0f2d328e45",
-    "url": "/andante/static/js/main.f810abf6.chunk.js"
+    "revision": "ea2bc856efd9ed475d71",
+    "url": "/andante/static/js/main.7b819850.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -684,8 +684,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/burger-btn.18c099a7.svg"
   },
   {
+    "revision": "d151a0fd10f5868baac87df1ccaa2efa",
+    "url": "/andante/static/media/burger-cake.d151a0fd.png"
+  },
+  {
     "revision": "b61184f23398e0d8e103670d8448af0c",
     "url": "/andante/static/media/cake.b61184f2.svg"
+  },
+  {
+    "revision": "9505bf8615e93a1fab72931903749845",
+    "url": "/andante/static/media/call-burger.9505bf86.svg"
   },
   {
     "revision": "9949f50ee7f723bb8f499f6e41016fc1",
@@ -708,6 +716,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/chocolate.dde7d757.png"
   },
   {
+    "revision": "e8cd20a6c379c31f696707d465cde56d",
+    "url": "/andante/static/media/close-menu.e8cd20a6.svg"
+  },
+  {
     "revision": "c57c13bf6bb8316da31a7376adb6ae36",
     "url": "/andante/static/media/dairy.c57c13bf.png"
   },
@@ -716,8 +728,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/donut_caramel.fa7f66ed.png"
   },
   {
-    "revision": "8abd7b24d51bf5ba48429f7621526e87",
-    "url": "/andante/static/media/gazel.8abd7b24.png"
+    "revision": "ea486baa5a7c3370362a09efc2385c1c",
+    "url": "/andante/static/media/gazel.ea486baa.png"
   },
   {
     "revision": "6a869a3689d4bb2489259681cfd979c0",
