@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/andante/static/css/main.c393bc5d.chunk.css",
-    "main.js": "/andante/static/js/main.42e5197f.chunk.js",
-    "main.js.map": "/andante/static/js/main.42e5197f.chunk.js.map",
+    "main.js": "/andante/static/js/main.fd097b7e.chunk.js",
+    "main.js.map": "/andante/static/js/main.fd097b7e.chunk.js.map",
     "runtime-main.js": "/andante/static/js/runtime-main.94e5cd9d.js",
     "runtime-main.js.map": "/andante/static/js/runtime-main.94e5cd9d.js.map",
     "static/js/2.adc337fe.chunk.js": "/andante/static/js/2.adc337fe.chunk.js",
     "static/js/2.adc337fe.chunk.js.map": "/andante/static/js/2.adc337fe.chunk.js.map",
     "index.html": "/andante/index.html",
-    "precache-manifest.c739809928232f5b1b2fb658e21454e3.js": "/andante/precache-manifest.c739809928232f5b1b2fb658e21454e3.js",
+    "precache-manifest.0db5443894456f3b00fb84f4e4236aff.js": "/andante/precache-manifest.0db5443894456f3b00fb84f4e4236aff.js",
     "service-worker.js": "/andante/service-worker.js",
     "static/css/main.c393bc5d.chunk.css.map": "/andante/static/css/main.c393bc5d.chunk.css.map",
     "static/js/2.adc337fe.chunk.js.LICENSE.txt": "/andante/static/js/2.adc337fe.chunk.js.LICENSE.txt",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.94e5cd9d.js",
     "static/js/2.adc337fe.chunk.js",
     "static/css/main.c393bc5d.chunk.css",
-    "static/js/main.42e5197f.chunk.js"
+    "static/js/main.fd097b7e.chunk.js"
   ]
 }
