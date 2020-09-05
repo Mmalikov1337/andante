@@ -48,17 +48,11 @@ let tempSliderInfo = [
 
 export default function Catalog() {
     
-    function w(){
-        console.log(window.screen.width);
-    }
-    
     return (
         <div className='catalog main-block'>
-            {/* <img src={raspberryCatalogPNG} alt="raspberryCatalogPNG" className='catalog__raspberry' /> */}
             <div className="container">
                 <div className="catalog__text">
                     <h3 className='catalog__text__title'
-                    // onClick = {w}
                     >
                         Смотреть каталог
                     </h3>

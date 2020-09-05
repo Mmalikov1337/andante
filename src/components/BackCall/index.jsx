@@ -4,7 +4,7 @@ import './BckCall.scss'
 
 export default function BackCall() {
     return (
-        <div className='backcall'>
+        <div className='backcall' id = 'backcall'>
             
             {/* <div className="backcall__imag">
                 <img src={purepngPNG} alt="purepngPNG"

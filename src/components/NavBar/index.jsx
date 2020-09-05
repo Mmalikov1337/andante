@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 
 import ANDA_logo from './../../imgs/ADNA_logo.png'
 import call from './../../imgs/call.png'
@@ -54,11 +54,11 @@ const MenuItems = [
 
 
 export default function NavBar() {
-	let targ = null;
+	let targ = useRef(document.querySelector('body'));
 	const [visibleMenu, setVisibleMenu] = useState(false);
-	useEffect(() => {
-		targ = document.querySelector('body')
-	})
+	// useEffect(() => {
+	// 	targ = document.querySelector('body')
+	// }, [targ])
 	return (
 		<nav className='navbar'>
 			{
@@ -82,12 +82,15 @@ export default function NavBar() {
 				}}>
 					<img src={burgerSVG} alt="burgerSVG" />
 				</div>
-				<button className="navbar__button-container__button btn">
-					<img src={call} alt="" />
-					<span>
-						Заказать обратный звонок
+				<a href="#backcall">
+					<button className="navbar__button-container__button btn">
+						<img src={call} alt="" />
+						<span>
+							Заказать обратный звонок
                     </span>
-				</button>
+					</button>
+				</a>
+
 				<p className="navbar__button-container__phone">
 					8 (800) 800-80-80
                 </p>

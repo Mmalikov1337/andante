@@ -52,7 +52,7 @@ export default function Academy() {
                                 <tr className='academy__table__row' key={index}>
                                     <td className='academy__table__row__col'>
                                         <div className='image-holder'>
-                                            <img src={item.image} alt="item.image" />
+                                            <img src={item.image} alt="item" />
                                             <p>{item.text}</p>
                                         </div>
                                     </td>

@@ -1,11 +1,11 @@
 import React from 'react'
-import aboutBgPNG from './../../imgs/aboutBg.png'
-import povarPNG from './../../imgs/povar.png'
+// import aboutBgPNG from './../../imgs/aboutBg.png'
+// import povarPNG from './../../imgs/povar.png'
 import dairyPNG from './../../imgs/dairy.png'
 import trayPNG from './../../imgs/tray.png'
 import moneyPNG from './../../imgs/money.png'
 import gazelPNG from './../../imgs/gazel.png'
-import fogPNG from './../../imgs/fog.png'
+// import fogPNG from './../../imgs/fog.png'
 
 import './AboutProduct.scss'
 
