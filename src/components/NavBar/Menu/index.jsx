@@ -26,7 +26,7 @@ export default function BurgerMenu({ close, menuElements }) {
                     <ul className="menu__links__list">
                         {
                             menuElements.map((item, index) => (
-                                <li className='menu__links__list__link' key = {index}>
+                                <li className='menu__links__list__link' key = {index} onClick = {close}>
                                     <a className="menu__links__list__link_item" rel="stylesheet" href={item.href}>
                                         {item.name}
                                     </a>
@@ -38,7 +38,7 @@ export default function BurgerMenu({ close, menuElements }) {
                 </div>
                 <div className="menu__button-container">
                     <a href="#backcall">
-                        <button className="menu__button-container__button btn">
+                        <button className="menu__button-container__button btn" onClick = {close}>
                         <img src={call} alt="call" />
                         <span>
                             Заказать обратный звонок
