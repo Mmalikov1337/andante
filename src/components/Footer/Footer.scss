@@ -17,7 +17,13 @@
             list-style-type: none;
             padding: 0;
 
-            &__element {}
+            &__element {
+                &_item {
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
         }
 
 
