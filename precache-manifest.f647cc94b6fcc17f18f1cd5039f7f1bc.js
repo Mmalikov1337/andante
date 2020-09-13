@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2662bac950f6c1a63c60b0463de3840",
+    "revision": "56cbb2ba3da777ce4a132611c45edc02",
     "url": "/andante/index.html"
   },
   {
-    "revision": "9c20a67230e2f45a026d",
-    "url": "/andante/static/css/main.c393bc5d.chunk.css"
+    "revision": "3af102994c94ee197c0d",
+    "url": "/andante/static/css/main.5df930dc.chunk.css"
   },
   {
-    "revision": "c94ce219b40bfc063f98",
-    "url": "/andante/static/js/2.adc337fe.chunk.js"
+    "revision": "8d7b2f6537b8939daf2a",
+    "url": "/andante/static/js/2.9c464508.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.adc337fe.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.9c464508.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c20a67230e2f45a026d",
-    "url": "/andante/static/js/main.fd097b7e.chunk.js"
+    "revision": "3af102994c94ee197c0d",
+    "url": "/andante/static/js/main.a2e3b5fb.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -664,36 +664,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/aboutUsBG.1762eccc.png"
   },
   {
-    "revision": "602bdc717e5163a49eaee86c8ab4a6d8",
-    "url": "/andante/static/media/arrowLeft1.602bdc71.svg"
+    "revision": "4b57f82022f7b82110c9104a19174944",
+    "url": "/andante/static/media/arrowLeft1.4b57f820.svg"
   },
   {
-    "revision": "1cd833619d8ca7eb0d2d41572ea3c689",
-    "url": "/andante/static/media/arrowRight1.1cd83361.svg"
+    "revision": "6bd0af5d2e09aa43879f9510cb7581b1",
+    "url": "/andante/static/media/arrowRight1.6bd0af5d.svg"
   },
   {
     "revision": "91ffd2628ca0d1930735ab755061db53",
     "url": "/andante/static/media/berry.91ffd262.png"
   },
   {
-    "revision": "8f39d5bb3298ca32326821477086d538",
-    "url": "/andante/static/media/blueberries.8f39d5bb.svg"
+    "revision": "f45fb8c0c21ba5ee401b6411a6dcff37",
+    "url": "/andante/static/media/blueberries.f45fb8c0.svg"
   },
   {
-    "revision": "18c099a7d4154f29f883d21d8fbfde49",
-    "url": "/andante/static/media/burger-btn.18c099a7.svg"
+    "revision": "b2b08d1c217c46ac76746c3470e6d92d",
+    "url": "/andante/static/media/burger-btn.b2b08d1c.svg"
   },
   {
     "revision": "d151a0fd10f5868baac87df1ccaa2efa",
     "url": "/andante/static/media/burger-cake.d151a0fd.png"
   },
   {
-    "revision": "b61184f23398e0d8e103670d8448af0c",
-    "url": "/andante/static/media/cake.b61184f2.svg"
+    "revision": "16d0c45d19f1d1db86fd56566d0d52cb",
+    "url": "/andante/static/media/cake.16d0c45d.svg"
   },
   {
-    "revision": "9505bf8615e93a1fab72931903749845",
-    "url": "/andante/static/media/call-burger.9505bf86.svg"
+    "revision": "c3b341b95e6ec8885247ca225884692b",
+    "url": "/andante/static/media/call-burger.c3b341b9.svg"
   },
   {
     "revision": "9949f50ee7f723bb8f499f6e41016fc1",
@@ -716,8 +716,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/chocolate.dde7d757.png"
   },
   {
-    "revision": "e8cd20a6c379c31f696707d465cde56d",
-    "url": "/andante/static/media/close-menu.e8cd20a6.svg"
+    "revision": "4f1215fd14e2cfc5989ea646833212af",
+    "url": "/andante/static/media/close-menu.4f1215fd.svg"
   },
   {
     "revision": "c57c13bf6bb8316da31a7376adb6ae36",
@@ -732,16 +732,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/gazel.ea486baa.png"
   },
   {
-    "revision": "6a869a3689d4bb2489259681cfd979c0",
-    "url": "/andante/static/media/mikl_reverse.6a869a36.svg"
+    "revision": "d654e11749390b3478ab40bdb760c6eb",
+    "url": "/andante/static/media/mikl_reverse.d654e117.svg"
   },
   {
-    "revision": "2e15376df627838c3ebfdb23946b6db7",
-    "url": "/andante/static/media/milk.2e15376d.svg"
+    "revision": "f14591da83b01eda42e29aa2d83c2386",
+    "url": "/andante/static/media/milk.f14591da.svg"
   },
   {
-    "revision": "994b10cc8d38eb2bf93b72ba93d64240",
-    "url": "/andante/static/media/minus.994b10cc.svg"
+    "revision": "28e13735e1340c5d109fce47b09f22dc",
+    "url": "/andante/static/media/minus.28e13735.svg"
   },
   {
     "revision": "3611828d7892cdafd21972c4d0b5ec1f",
@@ -756,8 +756,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/pEgg.3bddfd83.png"
   },
   {
-    "revision": "2aa00ae003c47ba16f5b57cb0b66cf72",
-    "url": "/andante/static/media/plus.2aa00ae0.svg"
+    "revision": "51a18dcee76e7629bba72428af3d82ee",
+    "url": "/andante/static/media/plus.51a18dce.svg"
   },
   {
     "revision": "824baec45d27c4511a3cde5518d3e0f4",
@@ -776,8 +776,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/recall-cake.e5983171.png"
   },
   {
-    "revision": "f24c0c3f2a5caeba1f42d2fa267e37a2",
-    "url": "/andante/static/media/recallArow.f24c0c3f.svg"
+    "revision": "d703e9dcb6fedc1f0eccc5021a5337c8",
+    "url": "/andante/static/media/recallArow.d703e9dc.svg"
   },
   {
     "revision": "4955f4a3da7ee9906e8237ffda3a91fd",
