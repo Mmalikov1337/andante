@@ -24,7 +24,7 @@ export default function BackCall() {
                         </p>
                     </div>
                     <form className="backcall__form__input">
-                        <input type="number" name="number" id="number" formMethod = 'POST'
+                        <input type="number" name="tel" id="number" required patern="[0-9]{3} [0-9]{3} [0-9]{4}" formMethod = 'POST'
                             placeholder='Введите Ваш номер телефона'
                             className='backcall__form__input__number' />
                         <button className='backcall__form__input__button btn'>

@@ -70,7 +70,7 @@
 
             &__title {
                 font-family: Gilroy;
-                font-size: 31.7517px;
+                font-size: 15px;
                 align-self: center;
                 margin: 0;
                 text-align: center;
@@ -120,6 +120,12 @@
             }
         }
     }
+}
+
+.slider__elements__element_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .no-button {
@@ -191,7 +197,7 @@
                 &__title {
                     font-family: Gilroy;
                     // font-size: 24px;
-                    font-size: 53px;
+                    font-size: 20px;
                     align-self: center;
                     // width: 90%;
                     margin: 0;
@@ -296,7 +302,7 @@
                 &__title {
                     font-family: Gilroy;
                     // font-size: 24px;
-                    font-size: 40px;
+                    font-size: 18px;
                     align-self: center;
                     // width: 90%;
                     margin: 0;
@@ -356,11 +362,18 @@
             cursor: pointer;
             position: relative;
             left: 20px;
+            width: 50%;
+                    height: auto;
 
             img {
                 position: relative;
-
+                &:first-child {
+                    width: 50%;
+                    height: auto;
+                }
                 &:nth-child(2) {
+                    width: 50%;
+                    height: auto;
                     position: relative;
                     right: 30px;
                 }
@@ -371,11 +384,19 @@
             cursor: pointer;
             position: relative;
             right: 20px;
+            width: 50%;
+                    height: auto;
 
             img {
                 &:first-child {
+                    width: 50%;
+                    height: auto;
                     position: relative;
                     left: 30px;
+                }
+                &:nth-child(2) {
+                    width: 50%;
+                    height: auto;
                 }
             }
 
@@ -404,7 +425,7 @@
                 &__title {
                     font-family: Gilroy;
                     // font-size: 24px;
-                    font-size: 30px;
+                    font-size: 15px;
                     align-self: center;
                     // width: 90%;
                     margin: 0;
@@ -469,8 +490,15 @@
                 width: 35px;
                 height: auto;
                 position: relative;
-
+                &:first-child {
+                    width: 50%;
+                    height: auto;
+                    position: relative;
+                    right: 20px;
+                }
                 &:nth-child(2) {
+                    width: 50%;
+                    height: auto;
                     position: relative;
                     right: 45px;
                 }
@@ -486,8 +514,16 @@
                 width: 35px;
                 height: auto;
                 &:first-child {
+                    width: 50%;
+                    height: auto;
                     position: relative;
                     left: 45px;
+                }
+                &:nth-child(2) {
+                    width: 50%;
+                    height: auto;
+                    position: relative;
+                    left: 20px;
                 }
             }
 
@@ -516,7 +552,7 @@
                 &__title {
                     font-family: Gilroy;
                     // font-size: 24px;
-                    font-size: 30px;
+                    font-size: 15px;
                     align-self: center;
                     // width: 90%;
                     margin: 0;
@@ -629,7 +665,7 @@
                 &__title {
                     font-family: Gilroy;
                     // font-size: 24px;
-                    font-size: 30px;
+                    font-size: 15px;
                     align-self: center;
                     // width: 90%;
                     margin: 0;

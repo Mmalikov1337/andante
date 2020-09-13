@@ -1,6 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react'
 import arrowLeft1SVG from './../../imgs/arrowLeft1.svg'
 import arrowRight1svg from './../../imgs/arrowRight1.svg'
+import tempImage from './../../imgs/ADNA_logo.png'
 
 import './Slider.scss'
 
@@ -60,6 +61,17 @@ export default function Slider({ SliderInfo, button }) {
     }
     // useWindowSize();
 
+    const checkImgSrc = src => {
+        const img = new Image();
+        img.onload = function () { console.log(`valid src: ${src}`); }
+        img.onerror = function () { console.log(`unvalid src: ${src}`); }
+        img.src = src;
+    }
+
+    const handleClick = (props) => {
+        console.log(props)
+    }
+
     return (
         <div className="slider">
             <div className="button-left" onClick={prew}>
@@ -71,9 +83,9 @@ export default function Slider({ SliderInfo, button }) {
                     state &&
                     SliderInfo.slice(state[0], state[1]).map((item, index) => (
                         <div className={`slider__elements__element ${button ? ' ' : 'no-button'}`} key={index}>
-                            <img src={item.image} alt="png" className='slider__elements__element__image' />
-                            <h4 className='slider__elements__element__title'>{item.title}</h4>
-                            <p className='slider__elements__element__description'>{item.description}
+                            {checkImgSrc(item.image ? item.image.src : '') ? <img src={item.image} alt="png" className='slider__elements__element__image' /> : <img src={tempImage} alt="png" className='slider__elements__element__image' />}
+                            <h4 className='slider__elements__element__title'>{item.name ? item.name : 'Название отсутствует :с'}</h4>
+                            <p className='slider__elements__element__description'>{item.description ? item.description : 'Описание отсутствует :с'}
                                 {
                                     item.options &&
                                     Object.entries(item.options).map((key, index) => (
@@ -96,9 +108,11 @@ export default function Slider({ SliderInfo, button }) {
                             </p>
                             {
                                 button &&
-                                <button className="slider__elements__element__button btn">
-                                    В корзину
-                                </button>
+                                <a href="/catalog" className="slider__elements__element_link" target="_blank" rel="noopener noreferrer" onClick={handleClick(item.id)}>
+                                    <button className="slider__elements__element__button btn">
+                                        В корзину
+                                    </button>
+                                </a>
                             }
                         </div>
                     ))

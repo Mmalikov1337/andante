@@ -39,9 +39,11 @@ export default function Footer() {
                     </div>
                     </div>
                     <div className="footer__link">
-                        <button className="footer__link__button btn-o">
-                            ПЕРЕЙТИ В КАТАЛОГ
-                        </button>
+                        <a href="/catalog" target="_blank" rel="noopener noreferrer">
+                            <button className="footer__link__button btn-o">
+                                ПЕРЕЙТИ В КАТАЛОГ
+                            </button>
+                        </a>
                     </div>
             {/* </div> */}
 
