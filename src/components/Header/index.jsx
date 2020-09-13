@@ -20,9 +20,11 @@ export default function Header() {
                             </p>
                         </div>
                         <div className="header__content__button-holder">
-                            <button className="header__content__button-holder__button btn">
-                                Перейти в каталог
-                            </button>
+                            <a href="/catalog" target="_blank" rel="noopener noreferrer">
+                                <button className="header__content__button-holder__button btn">
+                                    Перейти в каталог
+                                </button>
+                            </a>
                             {/* <div className="img-holder"> */}
                                 <img src={raspberryPNG} alt="raspberry" 
                                 className='header__content__button-holder__raspberry' />

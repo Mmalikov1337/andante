@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import springformPNG from './../../imgs/springform_flachboden_zenker_creativestudio.png'
 import donutCaramelPNG from './../../imgs/donut_caramel.png'
 import chocolatePNG from './../../imgs/chocolate.png'
 import TEMORARY_PNG from './../../imgs/TEMORARY.png'
+import axios from 'axios'
 
 import Slider from './../Slider'
 
@@ -47,7 +48,17 @@ let tempSliderInfo = [
 ]
 
 export default function Catalog() {
-    
+    const [items, setItems] = useState([]);
+    useEffect(() => {
+        let getItems = async () => {
+            const response = await axios.get('https://andante-admin.herokuapp.com/api/items');
+            setItems(response.data)
+            console.log(response.data[0])
+        }
+        if (items.length == 0) {
+            getItems()
+        }
+    });
     return (
         <div className='catalog main-block'>
             <div className="container">
@@ -60,7 +71,7 @@ export default function Catalog() {
                         Выбери способ заказа
                     </p>
                 </div>
-                <Slider SliderInfo={tempSliderInfo} button={true} />
+                <Slider SliderInfo={items ? items : tempSliderInfo} button={true} />
             </div>
         </div>
     )
