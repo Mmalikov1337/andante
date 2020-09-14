@@ -101,7 +101,7 @@ export default function Slider({ SliderInfo, button }) {
                                 {
                                     item.price &&
                                     <span className='price'>
-                                        {item.price}
+                                        {item.price} ₽
                                     </span>
                                 }
 

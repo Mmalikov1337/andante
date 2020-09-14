@@ -1,8 +1,9 @@
 .academy {
     height: fit-content;
     background: url('./../../imgs/moloko.png') right top no-repeat;
-    background-position-y: -150px;
-
+    background-size: 330px;
+    // background-position-y: -150px;
+    padding-top: 180px;
     &__text {
         &__title {
             font-family: Gilroy;
@@ -98,8 +99,9 @@
 @media screen and(max-width:1080px) {
     .academy {
         height: fit-content;
-        background: url('./../../imgs/moloko.png') right top no-repeat;
-        background-position-y: -150px;
+        background: none;
+        // background-size: 330px;
+        // background-position-y: -150px;
 
         &__text {
             text-align: center;
@@ -214,8 +216,8 @@
    
     .academy {
         height: fit-content;
-        background: url('./../../imgs/moloko.png') right top no-repeat;
-        background-position-y: -150px;
+        // background: url('./../../imgs/moloko.png') right top no-repeat;
+        // background-position-y: -150px;
         button {
             border-radius: 72.2812px;
             font-weight: bold;

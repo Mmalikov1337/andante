@@ -64,7 +64,7 @@ export default function Assortment() {
                         форм и приспособлений для кондитерских изделий любого типа
                     </p>
                 </div>
-                <Slider SliderInfo={items ? items : tempSliderInfo} button={false} />
+                <Slider SliderInfo={items ? items : tempSliderInfo} button={true} />
                 {/* <div className="assortment__button-holder">
                     <button className="assortment__button-holder__button btn">Перейти в каталог</button>
                 </div> */}

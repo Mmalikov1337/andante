@@ -1,13 +1,15 @@
 .assortment {
     height: 100vh;
     // max-height: 100vh;
+    padding-top: 100px;
     background-color: #0f0;
     // overflow: hidden;
     position: relative;
     z-index: 3;
     background-color: #fff;
     // background: url('./../../imgs/berry.png') (left -200px) bottom no-repeat;
-    background: url('./../../imgs/berry.png') left -200px bottom no-repeat, url('./../../imgs/chocolate-block.png') right -100px top 110px no-repeat;
+    background: url('./../../imgs/berry.png') left -200px bottom no-repeat,
+     url('./../../imgs/chocolate-block.png') right -25px top 110px no-repeat;
     padding-bottom: 200px;
 
     &__berry {
@@ -22,6 +24,7 @@
     }
 
     &__text {
+        margin-bottom: 125px;
         &__title {
             font-family: Gilroy;
             font-weight: bold;

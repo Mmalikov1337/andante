@@ -13,8 +13,8 @@ import './Delivery.scss'
 export default function Delivery() {
     return (
         <div className='delivery main-block' id="delivery">
-            <img src={nuts} alt="nuts" className='delivery__nuts' />
-            <div className="container">
+            {/* <img src={nuts} alt="nuts" className='delivery__nuts' /> */}
+            {/* <div className="container"> */}
                 <h3 className='delivery__title'>Доставка</h3>
                 {/* <div className="title_wrapper"> */}
                 <div className="delivery__tablets">
@@ -98,7 +98,7 @@ export default function Delivery() {
                         </p>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
 
             {/* </div> */}
             <img src={cassata_slice} alt="cassata_slice" className='delivery__cassata_slice' />
