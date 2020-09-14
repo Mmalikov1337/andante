@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56cbb2ba3da777ce4a132611c45edc02",
+    "revision": "4532ada37d4844c3e2677606933de80b",
     "url": "/andante/index.html"
   },
   {
-    "revision": "3af102994c94ee197c0d",
-    "url": "/andante/static/css/main.5df930dc.chunk.css"
+    "revision": "040b853feccd8590f312",
+    "url": "/andante/static/css/main.a22d4afd.chunk.css"
   },
   {
-    "revision": "8d7b2f6537b8939daf2a",
-    "url": "/andante/static/js/2.9c464508.chunk.js"
+    "revision": "535fbd5a00b5f2a916b8",
+    "url": "/andante/static/js/2.aa7751c9.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/andante/static/js/2.9c464508.chunk.js.LICENSE.txt"
+    "url": "/andante/static/js/2.aa7751c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3af102994c94ee197c0d",
-    "url": "/andante/static/js/main.a2e3b5fb.chunk.js"
+    "revision": "040b853feccd8590f312",
+    "url": "/andante/static/js/main.e984532c.chunk.js"
   },
   {
     "revision": "e57c2dab9d3e8cccbfdd",
@@ -744,8 +744,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andante/static/media/minus.28e13735.svg"
   },
   {
-    "revision": "3611828d7892cdafd21972c4d0b5ec1f",
-    "url": "/andante/static/media/moloko.3611828d.png"
+    "revision": "6b9bd0e6e640b6df73ab77b5c8f62969",
+    "url": "/andante/static/media/moloko.6b9bd0e6.png"
   },
   {
     "revision": "f11b4f0c553309944a1501c8fe946fa8",

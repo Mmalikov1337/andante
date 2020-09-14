@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/andante/static/css/main.5df930dc.chunk.css",
-    "main.js": "/andante/static/js/main.a2e3b5fb.chunk.js",
-    "main.js.map": "/andante/static/js/main.a2e3b5fb.chunk.js.map",
+    "main.css": "/andante/static/css/main.a22d4afd.chunk.css",
+    "main.js": "/andante/static/js/main.e984532c.chunk.js",
+    "main.js.map": "/andante/static/js/main.e984532c.chunk.js.map",
     "runtime-main.js": "/andante/static/js/runtime-main.94e5cd9d.js",
     "runtime-main.js.map": "/andante/static/js/runtime-main.94e5cd9d.js.map",
-    "static/js/2.9c464508.chunk.js": "/andante/static/js/2.9c464508.chunk.js",
-    "static/js/2.9c464508.chunk.js.map": "/andante/static/js/2.9c464508.chunk.js.map",
+    "static/js/2.aa7751c9.chunk.js": "/andante/static/js/2.aa7751c9.chunk.js",
+    "static/js/2.aa7751c9.chunk.js.map": "/andante/static/js/2.aa7751c9.chunk.js.map",
     "index.html": "/andante/index.html",
-    "precache-manifest.f647cc94b6fcc17f18f1cd5039f7f1bc.js": "/andante/precache-manifest.f647cc94b6fcc17f18f1cd5039f7f1bc.js",
+    "precache-manifest.3370d0ffa1460fc85c4574c706c36638.js": "/andante/precache-manifest.3370d0ffa1460fc85c4574c706c36638.js",
     "service-worker.js": "/andante/service-worker.js",
-    "static/css/main.5df930dc.chunk.css.map": "/andante/static/css/main.5df930dc.chunk.css.map",
-    "static/js/2.9c464508.chunk.js.LICENSE.txt": "/andante/static/js/2.9c464508.chunk.js.LICENSE.txt",
+    "static/css/main.a22d4afd.chunk.css.map": "/andante/static/css/main.a22d4afd.chunk.css.map",
+    "static/js/2.aa7751c9.chunk.js.LICENSE.txt": "/andante/static/js/2.aa7751c9.chunk.js.LICENSE.txt",
     "static/media/Questions.scss": "/andante/static/media/Blogtitelbilder.05da0acf.png",
     "static/media/App.scss": "/andante/static/media/P22UndergroundCYThinSC.ceaaf686.ttf",
     "static/media/TEMORARY.png": "/andante/static/media/TEMORARY.0a997345.png",
@@ -32,7 +32,7 @@
     "static/media/donut_caramel.png": "/andante/static/media/donut_caramel.fa7f66ed.png",
     "static/media/gazel.png": "/andante/static/media/gazel.ea486baa.png",
     "static/media/minus.svg": "/andante/static/media/minus.28e13735.svg",
-    "static/media/Academy.scss": "/andante/static/media/moloko.3611828d.png",
+    "static/media/Academy.scss": "/andante/static/media/moloko.6b9bd0e6.png",
     "static/media/money.png": "/andante/static/media/money.f11b4f0c.png",
     "static/media/pEgg.png": "/andante/static/media/pEgg.3bddfd83.png",
     "static/media/plus.svg": "/andante/static/media/plus.51a18dce.svg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.94e5cd9d.js",
-    "static/js/2.9c464508.chunk.js",
-    "static/css/main.5df930dc.chunk.css",
-    "static/js/main.a2e3b5fb.chunk.js"
+    "static/js/2.aa7751c9.chunk.js",
+    "static/css/main.a22d4afd.chunk.css",
+    "static/js/main.e984532c.chunk.js"
   ]
 }
