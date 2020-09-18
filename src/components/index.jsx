@@ -12,3 +12,4 @@ export {default as Academy} from './Academy/';
 export {default as BackCall} from './BackCall/';
 export {default as Footer} from './Footer/';
 export {default as Reji} from './Reji/';
+export {default as Recipe} from './Recipe/';

@@ -73,7 +73,7 @@ export default function Footer() {
                     <p className="footer__contacts__mail">
                         Почта для продажи:
                             <span>
-                            office@an-da.ru
+                            magazin@an-da.ru
                             </span>
                     </p>
                     <p className="footer__contacts__phone">

@@ -14,7 +14,7 @@ export default function AboutUs() {
                             <h3>О нас</h3>
                         </div>
                         <div className="about_us__content__text__description">
-                            <p>Динамично развивающаяся Торговая Компания “Анда” впервые вышла
+                            <p>Динамично развивающаяся Торговая Компания Анданте впервые вышла
                             на рынок в 1992 году и с тех пор успешно занимается поставками
                             сырья и ингредиентов для пищевой промышленности: кондитерской,
                             хлебопекарной, молочной и мясной.</p>
@@ -55,7 +55,9 @@ export default function AboutUs() {
 
 
                     <div className="about_us__content__button">
+                        <a href="#academy">
                         <button className="btn">Смотреть рецепты</button>
+                        </a>
                     </div>
 
                 </div>

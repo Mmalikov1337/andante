@@ -78,12 +78,12 @@
                 justify-self: center;
                 width: 200px;
                 font-family: Gilroy;
-                font-size: 15px;
+                font-size: 13px;
             }
         }
 
         &__eclipse {
-            .wrapper {
+            &_wrapper {
                 align-self: center;
                 display: flex;
 
@@ -111,7 +111,7 @@
                 position: relative;
                 top: 70px;
                 right: 100px;
-                z-index: -1;
+                z-index: 0;
                 text-align: center;
                 color: #ECECEC;
             }
@@ -124,6 +124,8 @@
                 line-height: 103.4%;
                 color: #490705;
                 margin-bottom: 12px;
+                position: relative;
+                z-index: 1;
             }
 
             &__description {
@@ -203,11 +205,16 @@
                 box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
                 border-radius: 5px;
                 grid-template-rows: 55% 45%;
+                p {
+                    font-size: 25px; 
+                }
+                // font-size: 25px;
 
                 &:hover {
                     background: #F0C1DB;
 
                     p {
+                        // font-size: 25px;
                         color: #fff;
                     }
                 }
@@ -225,7 +232,7 @@
                     font-style: normal;
                     justify-self: center;
 
-                    font-size: 36.0933px;
+                    // font-size: 36.0933px;
                     line-height: 43px;
                     width: 90%;
                     font-family: Gilroy;
@@ -239,7 +246,7 @@
                 // display: flex;
                 // justify-content: center;
 
-                .wrapper {
+                &_wrapper {
                     align-self: center;
                     display: flex;
                     flex-direction: column-reverse;
@@ -372,10 +379,14 @@
                 border-radius: 5px;
                 grid-template-rows: 55% 45%;
 
+                p {
+                    font-size: 25px;
+                }
                 &:hover {
                     background: #F0C1DB;
 
                     p {
+                        // font-size: 25px;
                         color: #fff;
                     }
                 }
@@ -393,7 +404,7 @@
                     font-style: normal;
                     justify-self: center;
 
-                    font-size: 36.0933px;
+                    // font-size: 36.0933px;
                     line-height: 43px;
                     width: 90%;
                     font-family: Gilroy;
@@ -407,7 +418,7 @@
                 // display: flex;
                 // justify-content: center;
 
-                .wrapper {
+                &_wrapper {
                     align-self: center;
                     display: flex;
                     flex-direction: column-reverse;
@@ -533,7 +544,7 @@
 
 //             &__eclipse {
 
-//                 .wrapper {
+//                 &_wrapper {
 
 //                     img {}
 //                 }
@@ -652,7 +663,7 @@
 //                 // display: flex;
 //                 // justify-content: center;
 
-//                 .wrapper {
+//                 &_wrapper {
 //                     align-self: center;
 //                     display: flex;
 //                     flex-direction: column-reverse;
@@ -832,7 +843,7 @@
                 // display: flex;
                 // justify-content: center;
 
-                .wrapper {
+                &_wrapper {
                     align-self: center;
                     display: flex;
                     flex-direction: column-reverse;
