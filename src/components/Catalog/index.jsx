@@ -68,7 +68,7 @@ export default function Catalog() {
                         Смотреть каталог
                     </h3>
                     <p className='catalog__text__description'>
-                        Выбери способ заказа
+                        Выберите товар
                     </p>
                 </div>
                 <Slider SliderInfo={items ? items : tempSliderInfo} button={true} />

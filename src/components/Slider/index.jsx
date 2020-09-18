@@ -5,6 +5,8 @@ import tempImage from './../../imgs/ADNA_logo.png'
 
 import './Slider.scss'
 
+const handleBrokenImage = e => (e.target.src = 'https://firebasestorage.googleapis.com/v0/b/andante-cae72.appspot.com/o/ADNA_logo.png?alt=media&token=59d4d7e8-770a-4039-8ac3-0c77eed6dc0b');
+
 export default function Slider({ SliderInfo, button }) {
 
     const [activeTabs, setActiveTabs] = useState(window.innerWidth < 1000 ? 1 : 3);
@@ -72,6 +74,20 @@ export default function Slider({ SliderInfo, button }) {
         console.log(props)
     }
 
+    const trimText = (str) => {
+        var sliced = str.slice(0, 85);
+        if (sliced.length < str.length) {
+            sliced += '...';
+        }
+        console.log(sliced)
+        return sliced
+    }
+
+    // let bungSize = {
+    //     width: `${getOptimalWidth(205, 105)}px`,
+    //     height: `auto`
+    // };
+
     return (
         <div className="slider">
             <div className="button-left" onClick={prew}>
@@ -83,9 +99,9 @@ export default function Slider({ SliderInfo, button }) {
                     state &&
                     SliderInfo.slice(state[0], state[1]).map((item, index) => (
                         <div className={`slider__elements__element ${button ? ' ' : 'no-button'}`} key={index}>
-                            {checkImgSrc(item.image ? item.image.src : '') ? <img src={item.image} alt="png" className='slider__elements__element__image' /> : <img src={tempImage} alt="png" className='slider__elements__element__image' />}
+                             <img src={item.picture.src ? item.picture.src : tempImage} alt="png" onError={handleBrokenImage} className='slider__elements__element__image' />
                             <h4 className='slider__elements__element__title'>{item.name ? item.name : 'Название отсутствует :с'}</h4>
-                            <p className='slider__elements__element__description'>{item.description ? item.description : 'Описание отсутствует :с'}
+                            <p className='slider__elements__element__description'>{item.description ? trimText(item.description) : 'Описание отсутствует :с'}
                                 {
                                     item.options &&
                                     Object.entries(item.options).map((key, index) => (

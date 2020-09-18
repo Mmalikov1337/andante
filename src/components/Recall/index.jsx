@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import recallCakePNG from './../../imgs/recall-cake.png'
 import recallArrowSVG from './../../imgs/recallArow.svg'
 
 import './Recall.scss'
 
 export default function Recall() {
+    const [reviewNumber, setReviewNumber] = useState(0)
+    
+    const handleClick = () => {
+        
+    }
     return (
         <div className='recall main-block' id="recall">
             {/* <img src={berryPNG} alt="berryPNG"
@@ -19,13 +24,13 @@ export default function Recall() {
                                 Иван Иванов
                             </h3>
                             <p className="recall__wrapper__block__text__description">
-                                Я приобрела у магазина Анда несколько формочек для выпечки,
-                                смесь пряничный микс и кучу другого и приготовила кучу печенек
-                                для всей семьи. Я редко готовлю что либо из теста и мне всегда очень
+                                Я приобрела у магазина Анданте несколько формочек для выпечки,
+                                смесь пряничный микс и кучу другого, приготовила много печенек
+                                для всей семьи. Редко готовлю что либо из теста и мне всегда очень
                                 не нравилось ходить по магазину и выискивать целую кучу ингредиентов.
                                 Решила заказать онлайн и поняла, что это очень удобно, просто четко
                                 по рецепту выбираете товары которые нужны,
-                                заказываете и через пару часов весь заказ дома! Всем советую!
+                                заказываете и через час весь заказ дома! Всем советую!
                             </p>
                         </div>
                         <img src={recallArrowSVG} alt="recallArrowSVG" 

@@ -30,7 +30,7 @@ export default function AboutProduct() {
                     <div className="right">
                         <div className="about__images__item">
                             <img src={trayPNG} alt="tray" />
-                            <p>Качественные изделия</p>
+                            <p>Инвентарь для кондитеров</p>
                         </div>
                         <div className="about__images__item">
                             <img src={dairyPNG} alt="dairy" />

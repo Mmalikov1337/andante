@@ -16,7 +16,7 @@ export default function Delivery() {
             {/* <img src={nuts} alt="nuts" className='delivery__nuts' /> */}
             {/* <div className="container"> */}
                 <h3 className='delivery__title'>Доставка</h3>
-                {/* <div className="title_wrapper"> */}
+                {/* <div className="title_delivery__tablets__eclipse_wrapper"> */}
                 <div className="delivery__tablets">
                     <div className="delivery__tablets__tablet">
                         <img src={watch} alt="watch" />
@@ -24,7 +24,7 @@ export default function Delivery() {
                     </div>
 
                     <div className="delivery__tablets__eclipse">
-                        <div className="wrapper">
+                        <div className="delivery__tablets__eclipse_wrapper">
                             <img src={EllipseSmall} alt="EllipseSmall" />
                             <img src={EllipseBig} alt="EllipseBig" />
                             <img src={EllipseSmall} alt="EllipseSmall" />
@@ -33,11 +33,11 @@ export default function Delivery() {
 
                     <div className="delivery__tablets__tablet">
                         <img src={computer} alt="computer" />
-                        <p>Остаивть свой заказ Вы сможете через сайт и по телефону 8(800)800-80-80</p>
+                        <p>Оставить свой заказ Вы сможете через сайт или по телефону 8(800)800-80-80</p>
                     </div>
 
                     <div className="delivery__tablets__eclipse">
-                        <div className="wrapper">
+                        <div className="delivery__tablets__eclipse_wrapper">
                             <img src={EllipseSmall} alt="EllipseSmall" />
                             <img src={EllipseBig} alt="EllipseBig" />
                             <img src={EllipseSmall} alt="EllipseSmall" />
@@ -46,11 +46,11 @@ export default function Delivery() {
 
                     <div className="delivery__tablets__tablet">
                         <img src={Bugday} alt="Bugday" />
-                        <p>Доставка бесплатная для тортов весом от 3 кг</p>
+                        <p>Каждую среду при заказе от 3000₽ бесплатная доставка по г. Омск, а каждый четверг по г. Омск и Омской области</p>
                     </div>
 
                     <div className="delivery__tablets__eclipse">
-                        <div className="wrapper">
+                        <div className="delivery__tablets__eclipse_wrapper">
                             <img src={EllipseSmall} alt="EllipseSmall" />
                             <img src={EllipseBig} alt="EllipseBig" />
                             <img src={EllipseSmall} alt="EllipseSmall" />
@@ -59,7 +59,7 @@ export default function Delivery() {
 
                     <div className="delivery__tablets__tablet">
                         <img src={car} alt="car" />
-                        <p>Доставка по всему Омску и по всей России в течении 3х суток</p>
+                        <p>Доставка до двери по г. Омск в течении 2х часов, а так же в течении 3х суток для всей России</p>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ export default function Delivery() {
                             Детали
                         </h4>
                         <p className='delivery__orders__order__description'>
-                            Наш менеджер свяжется с Вами и обсуит все ньюансы
+                            Наш менеджер свяжется с Вами и обсудит все ньюансы
                         </p>
                     </div>
                     <div className="delivery__orders__order">

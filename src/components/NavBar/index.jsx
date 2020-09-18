@@ -92,7 +92,7 @@ export default function NavBar() {
 				</a>
 
 				<p className="navbar__button-container__phone">
-					8 (800) 800-80-80
+					+7‒913‒657‒87‒39
                 </p>
 			</div>
 
