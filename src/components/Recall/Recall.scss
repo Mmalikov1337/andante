@@ -37,6 +37,7 @@
             background: url('./../../imgs/recallBlockBG.png');
             background-color: #FFF3F9;
             // display: flex;
+            min-height: 390px;
             max-width: 1000px;
             position: relative;
             right: 110px;
@@ -44,6 +45,7 @@
             &__text {
                 margin-right: 100px;
                 margin: 100px;
+                min-height: 309px;
                 position: relative;
                 left: 30px;
                 padding-left: 30px;
@@ -64,11 +66,24 @@
                     line-height: 18px;
                 }
             }
-
+            .wrap{
+                display: flex;
+                // align-items: flex-end;
+                // align-content: flex-end;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                // margin-top: 100%;
+                position: relative;
+                z-index: 2;
+            }
             &__arrow {
-                margin-left: 90%;
-                margin-bottom: 20px;
+                // margin-left: 90%;
+                // margin-bottom: 20px;
                 cursor: pointer;
+                &-back{
+                cursor: pointer;
+                transform: rotate(180deg);
+                }
             }
         }
     }
@@ -154,7 +169,7 @@
                     // margin-left: 90%;
                     // margin-bottom: 20px;
                     // cursor: pointer;
-                    display: none;
+                    // display: none;
                 }
             }
         }
@@ -244,7 +259,7 @@
                     // margin-left: 90%;
                     // margin-bottom: 20px;
                     // cursor: pointer;
-                    display: none;
+                    // display: none;
                 }
             }
         }
@@ -326,12 +341,12 @@
                         margin: 0 auto;
                     }
                 }
-
+                
                 &__arrow {
                     // margin-left: 90%;
                     // margin-bottom: 20px;
                     // cursor: pointer;
-                    display: none;
+                    // display: none;
                 }
             }
         }

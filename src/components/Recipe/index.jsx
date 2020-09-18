@@ -1,6 +1,6 @@
 import React from 'react'
 import './Recipe.scss'
-import cross from '../../../../../imgs/cross.png'
+import cross from './../../imgs/cross.png'
 
 export default function Recipe(props) {
     let recipe = props.recipe
