@@ -1,6 +1,7 @@
 .recall {
     height: fit-content;
     margin-bottom: 80px;
+
     .container {
         flex-direction: column;
         top: 0;
@@ -39,6 +40,8 @@
             // display: flex;
             min-height: 390px;
             max-width: 1000px;
+            // min-width: 90%;
+            // min-width: 74.48%;
             position: relative;
             right: 110px;
 
@@ -48,6 +51,7 @@
                 min-height: 309px;
                 position: relative;
                 left: 30px;
+                // width: 70%;
                 padding-left: 30px;
 
                 &__title {
@@ -62,11 +66,13 @@
                     font-family: Gilroy;
                     font-style: normal;
                     font-weight: 500;
+                    min-width: fit-content;
                     font-size: 15px;
                     line-height: 18px;
                 }
             }
-            .wrap{
+
+            .wrap {
                 display: flex;
                 // align-items: flex-end;
                 // align-content: flex-end;
@@ -75,14 +81,21 @@
                 // margin-top: 100%;
                 position: relative;
                 z-index: 2;
+                // width: 90%;
+                // justify-self: flex-end;
             }
+
             &__arrow {
                 // margin-left: 90%;
                 // margin-bottom: 20px;
+                margin: 0 20px 20px 0;
                 cursor: pointer;
-                &-back{
-                cursor: pointer;
-                transform: rotate(180deg);
+
+                &-back {
+                    margin: 0 0 20px 20px;
+
+                    cursor: pointer;
+                    transform: rotate(180deg);
                 }
             }
         }
@@ -203,9 +216,10 @@
             grid-template-columns: 3% 97%;
             border-radius: 10px;
             padding-right: 2.5%;
+
             &__image {
                 width: 120px;
-                
+
                 height: auto;
                 position: relative;
                 right: 25px;
@@ -219,7 +233,7 @@
                 background-color: #FFF3F9;
                 width: 100%;
                 margin: 0 auto;
-                
+
                 padding: 10px 10px 50px 10px;
                 // display: flex;
                 // max-width: 1000px;
@@ -321,7 +335,8 @@
                     // left: 30px;
                     margin: 0 auto;
                     // padding-left:20px ;
-                    padding-right:20px ;
+                    padding-right: 20px;
+
                     &__title {
                         font-family: Gilroy;
                         font-style: normal;
@@ -341,7 +356,7 @@
                         margin: 0 auto;
                     }
                 }
-                
+
                 &__arrow {
                     // margin-left: 90%;
                     // margin-bottom: 20px;
