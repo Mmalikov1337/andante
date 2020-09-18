@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/andante/static/css/main.a22d4afd.chunk.css",
-    "main.js": "/andante/static/js/main.e984532c.chunk.js",
-    "main.js.map": "/andante/static/js/main.e984532c.chunk.js.map",
+    "main.css": "/andante/static/css/main.7a17ffdd.chunk.css",
+    "main.js": "/andante/static/js/main.9d175c38.chunk.js",
+    "main.js.map": "/andante/static/js/main.9d175c38.chunk.js.map",
     "runtime-main.js": "/andante/static/js/runtime-main.94e5cd9d.js",
     "runtime-main.js.map": "/andante/static/js/runtime-main.94e5cd9d.js.map",
-    "static/js/2.aa7751c9.chunk.js": "/andante/static/js/2.aa7751c9.chunk.js",
-    "static/js/2.aa7751c9.chunk.js.map": "/andante/static/js/2.aa7751c9.chunk.js.map",
+    "static/js/2.9e909925.chunk.js": "/andante/static/js/2.9e909925.chunk.js",
+    "static/js/2.9e909925.chunk.js.map": "/andante/static/js/2.9e909925.chunk.js.map",
     "index.html": "/andante/index.html",
-    "precache-manifest.3370d0ffa1460fc85c4574c706c36638.js": "/andante/precache-manifest.3370d0ffa1460fc85c4574c706c36638.js",
+    "precache-manifest.da219b2273dca99d34733d1e9e00f50c.js": "/andante/precache-manifest.da219b2273dca99d34733d1e9e00f50c.js",
     "service-worker.js": "/andante/service-worker.js",
-    "static/css/main.a22d4afd.chunk.css.map": "/andante/static/css/main.a22d4afd.chunk.css.map",
-    "static/js/2.aa7751c9.chunk.js.LICENSE.txt": "/andante/static/js/2.aa7751c9.chunk.js.LICENSE.txt",
+    "static/css/main.7a17ffdd.chunk.css.map": "/andante/static/css/main.7a17ffdd.chunk.css.map",
+    "static/js/2.9e909925.chunk.js.LICENSE.txt": "/andante/static/js/2.9e909925.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/andante/static/media/ADNA_logo.1d247b33.png",
     "static/media/Questions.scss": "/andante/static/media/Blogtitelbilder.05da0acf.png",
     "static/media/App.scss": "/andante/static/media/P22UndergroundCYThinSC.ceaaf686.ttf",
     "static/media/TEMORARY.png": "/andante/static/media/TEMORARY.0a997345.png",
@@ -28,12 +29,15 @@
     "static/media/BckCall.scss": "/andante/static/media/purepng.c33384a1.png",
     "static/media/chocolate.png": "/andante/static/media/chocolate.dde7d757.png",
     "static/media/close-menu.svg": "/andante/static/media/close-menu.4f1215fd.svg",
-    "static/media/dairy.png": "/andante/static/media/dairy.c57c13bf.png",
+    "static/media/cross.png": "/andante/static/media/cross.efd949e6.png",
+    "static/media/dairy.png": "/andante/static/media/dairy.59c531f2.png",
     "static/media/donut_caramel.png": "/andante/static/media/donut_caramel.fa7f66ed.png",
     "static/media/gazel.png": "/andante/static/media/gazel.ea486baa.png",
+    "static/media/keks.jpg": "/andante/static/media/keks.a4253b8a.jpg",
+    "static/media/kruas.jpg": "/andante/static/media/kruas.b0a77902.jpg",
     "static/media/minus.svg": "/andante/static/media/minus.28e13735.svg",
     "static/media/Academy.scss": "/andante/static/media/moloko.6b9bd0e6.png",
-    "static/media/money.png": "/andante/static/media/money.f11b4f0c.png",
+    "static/media/money.png": "/andante/static/media/money.9c31b204.png",
     "static/media/pEgg.png": "/andante/static/media/pEgg.3bddfd83.png",
     "static/media/plus.svg": "/andante/static/media/plus.51a18dce.svg",
     "static/media/Catalog.scss": "/andante/static/media/raspberry_catalog.d4b72534.png",
@@ -41,12 +45,12 @@
     "static/media/recallArow.svg": "/andante/static/media/recallArow.d703e9dc.svg",
     "static/media/Recall.scss": "/andante/static/media/recallBlockBG.4955f4a3.png",
     "static/media/springform_flachboden_zenker_creativestudio.png": "/andante/static/media/springform_flachboden_zenker_creativestudio.cc1ea76d.png",
-    "static/media/tray.png": "/andante/static/media/tray.0a04bee1.png"
+    "static/media/tray.png": "/andante/static/media/tray.d84cff7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.94e5cd9d.js",
-    "static/js/2.aa7751c9.chunk.js",
-    "static/css/main.a22d4afd.chunk.css",
-    "static/js/main.e984532c.chunk.js"
+    "static/js/2.9e909925.chunk.js",
+    "static/css/main.7a17ffdd.chunk.css",
+    "static/js/main.9d175c38.chunk.js"
   ]
 }
