@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andante/static/css/main.7a17ffdd.chunk.css",
+    "main.css": "/andante/static/css/main.1b5679a6.chunk.css",
     "main.js": "/andante/static/js/main.9d175c38.chunk.js",
     "main.js.map": "/andante/static/js/main.9d175c38.chunk.js.map",
     "runtime-main.js": "/andante/static/js/runtime-main.94e5cd9d.js",
@@ -8,9 +8,9 @@
     "static/js/2.9e909925.chunk.js": "/andante/static/js/2.9e909925.chunk.js",
     "static/js/2.9e909925.chunk.js.map": "/andante/static/js/2.9e909925.chunk.js.map",
     "index.html": "/andante/index.html",
-    "precache-manifest.da219b2273dca99d34733d1e9e00f50c.js": "/andante/precache-manifest.da219b2273dca99d34733d1e9e00f50c.js",
+    "precache-manifest.edeb465c5d12b69f3496a368ffb79857.js": "/andante/precache-manifest.edeb465c5d12b69f3496a368ffb79857.js",
     "service-worker.js": "/andante/service-worker.js",
-    "static/css/main.7a17ffdd.chunk.css.map": "/andante/static/css/main.7a17ffdd.chunk.css.map",
+    "static/css/main.1b5679a6.chunk.css.map": "/andante/static/css/main.1b5679a6.chunk.css.map",
     "static/js/2.9e909925.chunk.js.LICENSE.txt": "/andante/static/js/2.9e909925.chunk.js.LICENSE.txt",
     "static/media/Footer.scss": "/andante/static/media/ADNA_logo.1d247b33.png",
     "static/media/Questions.scss": "/andante/static/media/Blogtitelbilder.05da0acf.png",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.94e5cd9d.js",
     "static/js/2.9e909925.chunk.js",
-    "static/css/main.7a17ffdd.chunk.css",
+    "static/css/main.1b5679a6.chunk.css",
     "static/js/main.9d175c38.chunk.js"
   ]
 }
